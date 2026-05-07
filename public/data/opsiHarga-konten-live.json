@@ -1,0 +1,157 @@
+[
+  {
+    "nama": "Konten Instan Starter",
+    "hargaNormal": 23000,
+    "hargaPromo": 20000,
+    "proyek": "Video",
+    "layanan": [
+      "Pembuatan Script / Naskah",
+      "Pengambilan Video (Shooting)",
+      "Tanpa editing apapun (Raw Video)",
+      "Harga Satuan Rp 20.000"
+    ],
+    "minimumTransaksi": 10,
+    "layananDanJaminan": [
+      "Video sesuai naskah",
+      "Penyediaan file raw tepat waktu"
+    ],
+    "hargaPromoTahunan": 240000,
+    "hargaNormalTahunan": 276000,
+    "hargaPromoLisensi": 420000,
+    "hargaNormalLisensi": 483000,
+    "deskripsi": "Dapatkan video mentah berkualitas tinggi yang direkam sesuai naskah, siap untuk Anda olah lebih lanjut sesuai kreativitas tim Anda."
+  },
+  {
+    "nama": "Konten Instan Medium",
+    "hargaNormal": 28750,
+    "hargaPromo": 25000,
+    "proyek": "Video",
+    "layanan": [
+      "Pembuatan Script / Naskah",
+      "Pengambilan Video (Shooting)",
+      "Cutting Editing Dasar (Penyuntingan Potongan)",
+      "Harga Satuan Rp 25.000"
+    ],
+    "minimumTransaksi": 10,
+    "layananDanJaminan": [
+      "Video rapi dengan susunan potong yang pas"
+    ],
+    "hargaPromoTahunan": 300000,
+    "hargaNormalTahunan": 345000,
+    "hargaPromoLisensi": 525000,
+    "hargaNormalLisensi": 603750,
+    "deskripsi": "Solusi cepat dan hemat waktu. Video Anda sudah melalui proses pemotongan dasar sehingga lebih rapi dan siap untuk dipublikasikan."
+  },
+  {
+    "nama": "Konten Instan Premier",
+    "hargaNormal": 40250,
+    "hargaPromo": 35000,
+    "proyek": "Video",
+    "layanan": [
+      "Pembuatan Script / Naskah",
+      "Editing Terpadu (Cutting & Transisi)",
+      "Color Grading (Penyesuaian Warna)",
+      "Harga Satuan Rp 35.000"
+    ],
+    "minimumTransaksi": 7,
+    "layananDanJaminan": [
+      "Visual memukau dan profesional",
+      "Konsistensi warna pada keseluruhan video"
+    ],
+    "hargaPromoTahunan": 420000,
+    "hargaNormalTahunan": 483000,
+    "hargaPromoLisensi": 735000,
+    "hargaNormalLisensi": 845250,
+    "deskripsi": "Sempurnakan visual brand Anda dengan penyesuaian warna dan transisi yang halus, memberikan kesan profesional di setiap tayangan."
+  },
+  {
+    "nama": "Konten Instan Pro",
+    "hargaNormal": 57500,
+    "hargaPromo": 50000,
+    "proyek": "Video",
+    "layanan": [
+      "Pembuatan Script Detail",
+      "Full Editing (Cutting, Transisi, Element)",
+      "Color Grading Profesional",
+      "Penambahan Elemen Visual & Grafis",
+      "Harga Satuan Rp 50.000"
+    ],
+    "minimumTransaksi": 5,
+    "rekomendasi": true,
+    "layananDanJaminan": [
+      "Kualitas setara produksi premium",
+      "Aset elemen yang menarik dan relevan"
+    ],
+    "hargaPromoTahunan": 600000,
+    "hargaNormalTahunan": 690000,
+    "hargaPromoLisensi": 1050000,
+    "hargaNormalLisensi": 1207500,
+    "deskripsi": "Paket produksi video komplit dengan penambahan grafis dan elemen visual premium, dirancang untuk memukau audiens seketika."
+  },
+  {
+    "nama": "Live For Awarness",
+    "hargaNormal": 28750,
+    "hargaPromo": 25000,
+    "proyek": "Jam",
+    "layanan": [
+      "Live Streaming Sesi Siang (08:00 - 15:00)",
+      "Interaksi Menyenangkan & Kasual",
+      "Setup Live Standar",
+      "Harga Satuan Jam Rp 25.000 (Hitungan Per Akun)"
+    ],
+    "minimumTransaksi": 4,
+    "layananDanJaminan": [
+      "Host berpengalaman mencairkan suasana",
+      "Peralatan siaran stabil"
+    ],
+    "hargaPromoTahunan": 300000,
+    "hargaNormalTahunan": 345000,
+    "hargaPromoLisensi": 525000,
+    "hargaNormalLisensi": 603750,
+    "deskripsi": "Tingkatkan kesadaran merek (brand awareness) dengan sesi live siang hari yang kasual, interaktif, dan sangat menghibur."
+  },
+  {
+    "nama": "Live For Business",
+    "hargaNormal": 46000,
+    "hargaPromo": 40000,
+    "proyek": "Jam",
+    "layanan": [
+      "Live Streaming Sesi Malam (15:30 - 21:30)",
+      "Pembawaan Formal / Business-oriented",
+      "Fokus Konversi dan Soft-selling",
+      "Harga Satuan Jam Rp 40.000 (Hitungan Per Akun)"
+    ],
+    "minimumTransaksi": 4,
+    "layananDanJaminan": [
+      "Ekspektasi retensi penonton tinggi",
+      "Kualitas audio visual premium"
+    ],
+    "hargaPromoTahunan": 480000,
+    "hargaNormalTahunan": 552000,
+    "hargaPromoLisensi": 840000,
+    "hargaNormalLisensi": 966000,
+    "deskripsi": "Maksimalkan peluang penjualan Anda di jam tayang utama dengan host profesional yang fokus pada pendekatan bisnis dan konversi."
+  },
+  {
+    "nama": "Live AlwaysOn",
+    "hargaNormal": 69000,
+    "hargaPromo": 60000,
+    "proyek": "Jam",
+    "layanan": [
+      "Live Streaming Sesi Larut/Subuh (22:00 - 06:30)",
+      "Menjaga Visibilitas Akun 24 Jam",
+      "Interaksi Santai & Menemani Audiens",
+      "Harga Satuan Jam Rp 60.000 (Hitungan Per Akun)"
+    ],
+    "minimumTransaksi": 4,
+    "layananDanJaminan": [
+      "Performa konsisten di jam rawan",
+      "Operator dan host siap sedia penuh"
+    ],
+    "hargaPromoTahunan": 720000,
+    "hargaNormalTahunan": 828000,
+    "hargaPromoLisensi": 1260000,
+    "hargaNormalLisensi": 1449000,
+    "deskripsi": "Pastikan eksistensi brand Anda tanpa terputus. Sesi live tengah malam hingga subuh untuk menjaga engagement tetap maksimal 24 jam."
+  }
+]

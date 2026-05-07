@@ -1,0 +1,22 @@
+
+{
+  "short_name": "AlinLabs",
+  "name": "AlinLabs Indonesia",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#f8fafc",
+  "display": "standalone",
+  "theme_color": "#4a8cdf",
+  "description": "Spesialis Pengembang Ekosistem Website Terkemuka, Agensi Kreatif, dan Pemasaran Digital."
+}
