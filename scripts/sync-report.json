@@ -1,0 +1,566 @@
+{
+  "generatedAt": "2026-11-20T05:01:49.442Z",
+  "totalFilesUpdated": 28,
+  "totalImportsUpdated": 79,
+  "totalAssetsUpdated": 11,
+  "changes": [
+    {
+      "file": "src/app.tsx",
+      "kind": "public-asset-path",
+      "from": "/lottie/Logo.lottie",
+      "to": "/lottie/logo.lottie"
+    },
+    {
+      "file": "src/app.tsx",
+      "kind": "dynamic-import",
+      "from": "./halaman/checkout/Checkout",
+      "to": "./pages/checkout/checkout-page"
+    },
+    {
+      "file": "src/app.tsx",
+      "kind": "dynamic-import",
+      "from": "./halaman/legal/LegalPage",
+      "to": "./pages/legal/legal-page"
+    },
+    {
+      "file": "src/app.tsx",
+      "kind": "dynamic-import",
+      "from": "./halaman/portofolio/Main",
+      "to": "./pages/portofolio/portofolio-page"
+    },
+    {
+      "file": "src/app.tsx",
+      "kind": "dynamic-import",
+      "from": "./halaman/layanan/main/Main",
+      "to": "./pages/layanan/main/layanan-page"
+    },
+    {
+      "file": "src/app.tsx",
+      "kind": "dynamic-import",
+      "from": "./halaman/single-page/Kontak",
+      "to": "./pages/single-page/kontak"
+    },
+    {
+      "file": "src/app.tsx",
+      "kind": "dynamic-import",
+      "from": "./halaman/single-page/Tentang",
+      "to": "./pages/single-page/tentang"
+    },
+    {
+      "file": "src/app.tsx",
+      "kind": "dynamic-import",
+      "from": "./halaman/beranda/Main",
+      "to": "./pages/beranda/beranda-page"
+    },
+    {
+      "file": "src/app.tsx",
+      "kind": "static-import",
+      "from": "./components/ui/Loading",
+      "to": "./components/ui/loading"
+    },
+    {
+      "file": "src/app.tsx",
+      "kind": "static-import",
+      "from": "./components/chat/ChatAssistant",
+      "to": "./features/chat/chat-assistant"
+    },
+    {
+      "file": "src/app.tsx",
+      "kind": "static-import",
+      "from": "./components/WelcomePopup",
+      "to": "./components/common/welcome-popup"
+    },
+    {
+      "file": "src/app.tsx",
+      "kind": "static-import",
+      "from": "./components/seo/MetaTagManager",
+      "to": "./components/seo/meta-tag-manager"
+    },
+    {
+      "file": "src/app.tsx",
+      "kind": "static-import",
+      "from": "./components/layout/Layout",
+      "to": "./components/layout/layout"
+    },
+    {
+      "file": "src/features/chat/chat-assistant.tsx",
+      "kind": "static-import",
+      "from": "./logikaChat",
+      "to": "./logika-chat"
+    },
+    {
+      "file": "src/components/layout/footer.tsx",
+      "kind": "public-asset-path",
+      "from": "/lottie/Logo.lottie",
+      "to": "/lottie/logo.lottie"
+    },
+    {
+      "file": "src/components/layout/footer.tsx",
+      "kind": "static-import",
+      "from": "../ui/UniversalLottie",
+      "to": "../ui/universal-lottie"
+    },
+    {
+      "file": "src/components/layout/layout.tsx",
+      "kind": "static-import",
+      "from": "./Footer",
+      "to": "./footer"
+    },
+    {
+      "file": "src/components/layout/layout.tsx",
+      "kind": "static-import",
+      "from": "./MobileNavigasi",
+      "to": "./mobile-navigasi"
+    },
+    {
+      "file": "src/components/layout/layout.tsx",
+      "kind": "static-import",
+      "from": "./Navbar",
+      "to": "./navbar"
+    },
+    {
+      "file": "src/components/layout/navbar.tsx",
+      "kind": "public-asset-path",
+      "from": "/lottie/Logo.lottie",
+      "to": "/lottie/logo.lottie"
+    },
+    {
+      "file": "src/components/layout/navbar.tsx",
+      "kind": "static-import",
+      "from": "./Sidebar",
+      "to": "./sidebar"
+    },
+    {
+      "file": "src/components/layout/navbar.tsx",
+      "kind": "static-import",
+      "from": "../ui/UniversalLottie",
+      "to": "../ui/universal-lottie"
+    },
+    {
+      "file": "src/components/layout/sidebar.tsx",
+      "kind": "public-asset-path",
+      "from": "/lottie/Logo.lottie",
+      "to": "/lottie/logo.lottie"
+    },
+    {
+      "file": "src/pages/beranda/featured-services.tsx",
+      "kind": "static-import",
+      "from": "../../components/ui/UniversalLottie",
+      "to": "../../components/ui/universal-lottie"
+    },
+    {
+      "file": "src/pages/beranda/featured-services.tsx",
+      "kind": "static-import",
+      "from": "../../utils/DynamicIcon",
+      "to": "../../components/ui/dynamic-icon"
+    },
+    {
+      "file": "src/pages/beranda/hero.tsx",
+      "kind": "static-import",
+      "from": "../portofolio/Publik",
+      "to": "../portofolio/publik"
+    },
+    {
+      "file": "src/pages/beranda/beranda-page.tsx",
+      "kind": "public-asset-path",
+      "from": "/lottie/LoadingRocket.lottie",
+      "to": "/lottie/loading-rocket.lottie"
+    },
+    {
+      "file": "src/pages/beranda/beranda-page.tsx",
+      "kind": "public-asset-path",
+      "from": "/lottie/IndonesiaConnect.lottie",
+      "to": "/lottie/indonesia-connect.lottie"
+    },
+    {
+      "file": "src/pages/beranda/beranda-page.tsx",
+      "kind": "static-import",
+      "from": "./Testimonials",
+      "to": "./testimonials"
+    },
+    {
+      "file": "src/pages/beranda/beranda-page.tsx",
+      "kind": "static-import",
+      "from": "./TechStack",
+      "to": "./tech-stack"
+    },
+    {
+      "file": "src/pages/beranda/beranda-page.tsx",
+      "kind": "static-import",
+      "from": "./Workflow",
+      "to": "./workflow"
+    },
+    {
+      "file": "src/pages/beranda/beranda-page.tsx",
+      "kind": "static-import",
+      "from": "./FeaturedServices",
+      "to": "./featured-services"
+    },
+    {
+      "file": "src/pages/beranda/beranda-page.tsx",
+      "kind": "static-import",
+      "from": "./NationalReach",
+      "to": "./national-reach"
+    },
+    {
+      "file": "src/pages/beranda/beranda-page.tsx",
+      "kind": "static-import",
+      "from": "./QuickAccess",
+      "to": "./quick-access"
+    },
+    {
+      "file": "src/pages/beranda/beranda-page.tsx",
+      "kind": "static-import",
+      "from": "./Hero",
+      "to": "./hero"
+    },
+    {
+      "file": "src/pages/beranda/national-reach.tsx",
+      "kind": "static-import",
+      "from": "../../components/ui/UniversalLottie",
+      "to": "../../components/ui/universal-lottie"
+    },
+    {
+      "file": "src/pages/beranda/national-reach.tsx",
+      "kind": "static-import",
+      "from": "../../utils/DynamicIcon",
+      "to": "../../components/ui/dynamic-icon"
+    },
+    {
+      "file": "src/pages/beranda/workflow.tsx",
+      "kind": "static-import",
+      "from": "../../utils/DynamicIcon",
+      "to": "../../components/ui/dynamic-icon"
+    },
+    {
+      "file": "src/pages/checkout/checkout-page.tsx",
+      "kind": "static-import",
+      "from": "./CheckoutStep3",
+      "to": "./checkout-step-3"
+    },
+    {
+      "file": "src/pages/checkout/checkout-page.tsx",
+      "kind": "static-import",
+      "from": "./CheckoutStep2",
+      "to": "./checkout-step-2"
+    },
+    {
+      "file": "src/pages/checkout/checkout-page.tsx",
+      "kind": "static-import",
+      "from": "./CheckoutStep1",
+      "to": "./checkout-step-1"
+    },
+    {
+      "file": "src/pages/layanan/main/layanan-page.tsx",
+      "kind": "public-asset-path",
+      "from": "/lottie/VideoCreator.lottie",
+      "to": "/lottie/video-creator.lottie"
+    },
+    {
+      "file": "src/pages/layanan/main/layanan-page.tsx",
+      "kind": "public-asset-path",
+      "from": "/lottie/SosialMedia.lottie",
+      "to": "/lottie/sosial-media.lottie"
+    },
+    {
+      "file": "src/pages/layanan/main/layanan-page.tsx",
+      "kind": "public-asset-path",
+      "from": "/lottie/VideoCreator.lottie",
+      "to": "/lottie/video-creator.lottie"
+    },
+    {
+      "file": "src/pages/layanan/main/layanan-page.tsx",
+      "kind": "public-asset-path",
+      "from": "/lottie/Website.lottie",
+      "to": "/lottie/website.lottie"
+    },
+    {
+      "file": "src/pages/layanan/main/layanan-page.tsx",
+      "kind": "public-asset-path",
+      "from": "/lottie/SosialMedia.lottie",
+      "to": "/lottie/sosial-media.lottie"
+    },
+    {
+      "file": "src/pages/layanan/main/layanan-page.tsx",
+      "kind": "static-import",
+      "from": "../paket/Main",
+      "to": "../paket/paket-detail-page"
+    },
+    {
+      "file": "src/pages/layanan/main/layanan-page.tsx",
+      "kind": "static-import",
+      "from": "../paket/KreatifIn",
+      "to": "../paket/kreatif-in"
+    },
+    {
+      "file": "src/pages/layanan/main/layanan-page.tsx",
+      "kind": "static-import",
+      "from": "../paket/WebsiteIn",
+      "to": "../paket/website-in"
+    },
+    {
+      "file": "src/pages/layanan/main/layanan-page.tsx",
+      "kind": "static-import",
+      "from": "../paket/IklanIn",
+      "to": "../paket/iklan-in"
+    },
+    {
+      "file": "src/pages/layanan/main/layanan-page.tsx",
+      "kind": "static-import",
+      "from": "../../../utils/DynamicIcon",
+      "to": "../../../components/ui/dynamic-icon"
+    },
+    {
+      "file": "src/pages/layanan/paket/paket-detail-page.tsx",
+      "kind": "static-import",
+      "from": "../../../public/data/opsiHarga-konten-live.json",
+      "to": "../../../data/opsi-harga-konten-live.json"
+    },
+    {
+      "file": "src/pages/layanan/paket/paket-detail-page.tsx",
+      "kind": "static-import",
+      "from": "../../../public/data/opsiHarga-website-aplikasi.json",
+      "to": "../../../data/opsi-harga-website-aplikasi.json"
+    },
+    {
+      "file": "src/pages/layanan/paket/paket-detail-page.tsx",
+      "kind": "static-import",
+      "from": "../../../public/data/opsiHarga-digital-marketing.json",
+      "to": "../../../data/opsi-harga-digital-marketing.json"
+    },
+    {
+      "file": "src/pages/layanan/paket/paket-detail-page.tsx",
+      "kind": "static-import",
+      "from": "../../../components/ui/CustomDigitalMarketingBuilder",
+      "to": "../../../features/services/custom-digital-marketing-builder"
+    },
+    {
+      "file": "src/pages/legal/legal-page.tsx",
+      "kind": "static-import",
+      "from": "../../components/ui/Error",
+      "to": "../../components/ui/error-state"
+    },
+    {
+      "file": "src/pages/portofolio/detail.tsx",
+      "kind": "static-import",
+      "from": "../../components/ui/MetricCharts",
+      "to": "../../components/ui/metric-charts"
+    },
+    {
+      "file": "src/pages/portofolio/portofolio-page.tsx",
+      "kind": "static-import",
+      "from": "./Preview",
+      "to": "./preview"
+    },
+    {
+      "file": "src/pages/portofolio/portofolio-page.tsx",
+      "kind": "static-import",
+      "from": "./Detail",
+      "to": "./detail"
+    },
+    {
+      "file": "src/pages/portofolio/portofolio-page.tsx",
+      "kind": "static-import",
+      "from": "./Publik",
+      "to": "./publik"
+    },
+    {
+      "file": "src/pages/portofolio/publik.tsx",
+      "kind": "static-import",
+      "from": "../../utils/useShareableMedia",
+      "to": "../../hooks/use-shareable-media"
+    },
+    {
+      "file": "src/pages/portofolio/publik.tsx",
+      "kind": "static-import",
+      "from": "../../components/ui/VideoPopup",
+      "to": "../../components/ui/video-popup"
+    },
+    {
+      "file": "src/pages/portofolio/publik.tsx",
+      "kind": "static-import",
+      "from": "../../components/ui/InViewVideo",
+      "to": "../../components/ui/in-view-video"
+    },
+    {
+      "file": "src/pages/portofolio/publik.tsx",
+      "kind": "static-import",
+      "from": "./SectionVanySongket",
+      "to": "./section-vany-songket"
+    },
+    {
+      "file": "src/pages/portofolio/publik.tsx",
+      "kind": "static-import",
+      "from": "./SectionWorldStreet",
+      "to": "./section-world-street"
+    },
+    {
+      "file": "src/pages/portofolio/publik.tsx",
+      "kind": "static-import",
+      "from": "./SectionWikara",
+      "to": "./section-wikara"
+    },
+    {
+      "file": "src/pages/portofolio/publik.tsx",
+      "kind": "static-import",
+      "from": "./SectionMelinPerfume",
+      "to": "./section-melin-perfume"
+    },
+    {
+      "file": "src/pages/portofolio/publik.tsx",
+      "kind": "static-import",
+      "from": "./SectionMinnatulHuda",
+      "to": "./section-minnatul-huda"
+    },
+    {
+      "file": "src/pages/portofolio/publik.tsx",
+      "kind": "static-import",
+      "from": "./SectionAmbefit",
+      "to": "./section-ambefit"
+    },
+    {
+      "file": "src/pages/portofolio/section-ambefit.tsx",
+      "kind": "static-import",
+      "from": "../../utils/useShareableMedia",
+      "to": "../../hooks/use-shareable-media"
+    },
+    {
+      "file": "src/pages/portofolio/section-ambefit.tsx",
+      "kind": "static-import",
+      "from": "../../components/ui/ExpandableText",
+      "to": "../../components/ui/expandable-text"
+    },
+    {
+      "file": "src/pages/portofolio/section-ambefit.tsx",
+      "kind": "static-import",
+      "from": "../../components/ui/InViewVideo",
+      "to": "../../components/ui/in-view-video"
+    },
+    {
+      "file": "src/pages/portofolio/section-ambefit.tsx",
+      "kind": "static-import",
+      "from": "../../components/ui/VideoPopup",
+      "to": "../../components/ui/video-popup"
+    },
+    {
+      "file": "src/pages/portofolio/section-melin-perfume.tsx",
+      "kind": "static-import",
+      "from": "../../components/ui/VideoPopup",
+      "to": "../../components/ui/video-popup"
+    },
+    {
+      "file": "src/pages/portofolio/section-melin-perfume.tsx",
+      "kind": "static-import",
+      "from": "../../utils/useShareableMedia",
+      "to": "../../hooks/use-shareable-media"
+    },
+    {
+      "file": "src/pages/portofolio/section-melin-perfume.tsx",
+      "kind": "static-import",
+      "from": "../../components/ui/ExpandableText",
+      "to": "../../components/ui/expandable-text"
+    },
+    {
+      "file": "src/pages/portofolio/section-minnatul-huda.tsx",
+      "kind": "static-import",
+      "from": "../../components/ui/ExpandableText",
+      "to": "../../components/ui/expandable-text"
+    },
+    {
+      "file": "src/pages/portofolio/section-vany-songket.tsx",
+      "kind": "static-import",
+      "from": "../../utils/useShareableMedia",
+      "to": "../../hooks/use-shareable-media"
+    },
+    {
+      "file": "src/pages/portofolio/section-vany-songket.tsx",
+      "kind": "static-import",
+      "from": "../../components/ui/ExpandableText",
+      "to": "../../components/ui/expandable-text"
+    },
+    {
+      "file": "src/pages/portofolio/section-vany-songket.tsx",
+      "kind": "static-import",
+      "from": "../../components/ui/InViewVideo",
+      "to": "../../components/ui/in-view-video"
+    },
+    {
+      "file": "src/pages/portofolio/section-vany-songket.tsx",
+      "kind": "static-import",
+      "from": "../../components/ui/VideoPopup",
+      "to": "../../components/ui/video-popup"
+    },
+    {
+      "file": "src/pages/portofolio/section-wikara.tsx",
+      "kind": "static-import",
+      "from": "../../utils/useShareableMedia",
+      "to": "../../hooks/use-shareable-media"
+    },
+    {
+      "file": "src/pages/portofolio/section-wikara.tsx",
+      "kind": "static-import",
+      "from": "../../components/ui/ExpandableText",
+      "to": "../../components/ui/expandable-text"
+    },
+    {
+      "file": "src/pages/portofolio/section-wikara.tsx",
+      "kind": "static-import",
+      "from": "../../components/ui/InViewVideo",
+      "to": "../../components/ui/in-view-video"
+    },
+    {
+      "file": "src/pages/portofolio/section-wikara.tsx",
+      "kind": "static-import",
+      "from": "../../components/ui/VideoPopup",
+      "to": "../../components/ui/video-popup"
+    },
+    {
+      "file": "src/pages/portofolio/section-world-street.tsx",
+      "kind": "static-import",
+      "from": "../../components/ui/VideoPopup",
+      "to": "../../components/ui/video-popup"
+    },
+    {
+      "file": "src/pages/portofolio/section-world-street.tsx",
+      "kind": "static-import",
+      "from": "../../utils/useShareableMedia",
+      "to": "../../hooks/use-shareable-media"
+    },
+    {
+      "file": "src/pages/portofolio/section-world-street.tsx",
+      "kind": "static-import",
+      "from": "../../components/ui/ExpandableText",
+      "to": "../../components/ui/expandable-text"
+    },
+    {
+      "file": "src/main.tsx",
+      "kind": "static-import",
+      "from": "./index.css",
+      "to": "./styles/index.css"
+    },
+    {
+      "file": "src/main.tsx",
+      "kind": "static-import",
+      "from": "./App",
+      "to": "./app"
+    },
+    {
+      "file": "index.html",
+      "kind": "html-entry",
+      "from": "/index.tsx & /index.css",
+      "to": "/src/main.tsx & /src/styles/index.css"
+    },
+    {
+      "file": "tsconfig.json",
+      "kind": "ts-config",
+      "from": "@/* -> ./*",
+      "to": "@/* -> ./src/* (include: src, vite.config.ts)"
+    },
+    {
+      "file": "vite.config.ts",
+      "kind": "vite-alias",
+      "from": "path.resolve('.')",
+      "to": "path.resolve('./src')"
+    }
+  ]
+}

@@ -1,0 +1,1900 @@
+{
+  "generatedAt": "2026-11-20T05:01:38.048Z",
+  "totalFiles": 136,
+  "categories": {
+    "rootConfig": [
+      ".env.example",
+      ".gitignore",
+      "README.md",
+      "index.html",
+      "metadata.json",
+      "package.json",
+      "tsconfig.json",
+      "vercel.json",
+      "vite.config.ts"
+    ],
+    "publicStatic": [
+      "public/CNAME",
+      "public/ads.txt",
+      "public/emailjs.html",
+      "public/gambar/banner-desktop1.webp",
+      "public/gambar/banner-desktop2.webp",
+      "public/gambar/banner-desktop3.webp",
+      "public/gambar/banner-desktop4.webp",
+      "public/gambar/banner-desktop5.webp",
+      "public/gambar/banner-mobile1.webp",
+      "public/gambar/banner-mobile2.webp",
+      "public/gambar/banner-mobile3.webp",
+      "public/gambar/banner-mobile4.webp",
+      "public/gambar/banner-mobile5.webp",
+      "public/gambar/logo-favicon.ico",
+      "public/gambar/logo-icon-color.png",
+      "public/gambar/logo-icon-white.png",
+      "public/gambar/metatag-layanan.webp",
+      "public/gambar/metatag-portofolio.webp",
+      "public/gambar/metatag-umum.webp",
+      "public/gambar/pilihan-layanan1.webp",
+      "public/gambar/pilihan-layanan2.webp",
+      "public/gambar/pilihan-layanan3.webp",
+      "public/gambar/welcome-popup1.webp",
+      "public/gambar/welcome-popup2.webp",
+      "public/gambar/welcome-popup3.webp",
+      "public/icon/ailab-akses.png",
+      "public/icon/android.png",
+      "public/icon/api.png",
+      "public/icon/appstroe.png",
+      "public/icon/chat-asisten.png",
+      "public/icon/chat-custom.png",
+      "public/icon/cloudflare.png",
+      "public/icon/custom-akses.png",
+      "public/icon/database-link.png",
+      "public/icon/facebook.png",
+      "public/icon/form.png",
+      "public/icon/github.png",
+      "public/icon/gmail.png",
+      "public/icon/google.png",
+      "public/icon/instagram.png",
+      "public/icon/ios.png",
+      "public/icon/kurs.png",
+      "public/icon/maps.png",
+      "public/icon/meta.png",
+      "public/icon/payment-card.png",
+      "public/icon/playstore.png",
+      "public/icon/pwa.png",
+      "public/icon/shopee.png",
+      "public/icon/social-media.png",
+      "public/icon/static.png",
+      "public/icon/tiktok.png",
+      "public/icon/tokopedia.png",
+      "public/icon/translate.png",
+      "public/icon/vercel.png",
+      "public/icon/whatsapp.png",
+      "public/icon/windows.png",
+      "public/manifest.json",
+      "public/robots.txt",
+      "public/sitemap.xml",
+      "public/sw.js"
+    ],
+    "publicLottie": [
+      "public/lottie/IndonesiaConnect.lottie",
+      "public/lottie/LoadingRocket.lottie",
+      "public/lottie/Logo.lottie",
+      "public/lottie/SosialMedia.lottie",
+      "public/lottie/VideoCreator.lottie",
+      "public/lottie/Website.lottie"
+    ],
+    "publicData": [
+      "public/data/opsiHarga-digital-marketing.json",
+      "public/data/opsiHarga-konten-live.json",
+      "public/data/opsiHarga-website-aplikasi.json"
+    ],
+    "sourceCode": [
+      "App.tsx",
+      "components/WelcomePopup.tsx",
+      "components/chat/ChatAssistant.tsx",
+      "components/chat/logikaChat.ts",
+      "components/chat/quest.ts",
+      "components/chat/respon.ts",
+      "components/layout/Footer.tsx",
+      "components/layout/Layout.tsx",
+      "components/layout/MobileNavigasi.tsx",
+      "components/layout/Navbar.tsx",
+      "components/layout/Sidebar.tsx",
+      "components/seo/MetaTagManager.tsx",
+      "components/ui/CustomDigitalMarketingBuilder.tsx",
+      "components/ui/Error.tsx",
+      "components/ui/ExpandableText.tsx",
+      "components/ui/InViewVideo.tsx",
+      "components/ui/Loading.tsx",
+      "components/ui/MetricCharts.tsx",
+      "components/ui/ScaledIframe.tsx",
+      "components/ui/UniversalLottie.tsx",
+      "components/ui/VideoPopup.tsx",
+      "halaman/beranda/FeaturedServices.tsx",
+      "halaman/beranda/Hero.tsx",
+      "halaman/beranda/Main.tsx",
+      "halaman/beranda/NationalReach.tsx",
+      "halaman/beranda/QuickAccess.tsx",
+      "halaman/beranda/TechStack.tsx",
+      "halaman/beranda/Testimonials.tsx",
+      "halaman/beranda/Workflow.tsx",
+      "halaman/checkout/Checkout.tsx",
+      "halaman/checkout/CheckoutStep1.tsx",
+      "halaman/checkout/CheckoutStep2.tsx",
+      "halaman/checkout/CheckoutStep3.tsx",
+      "halaman/layanan/main/Main.tsx",
+      "halaman/layanan/paket/IklanIn.tsx",
+      "halaman/layanan/paket/KreatifIn.tsx",
+      "halaman/layanan/paket/Main.tsx",
+      "halaman/layanan/paket/PackageDetail.tsx",
+      "halaman/layanan/paket/WebsiteIn.tsx",
+      "halaman/legal/LegalPage.tsx",
+      "halaman/portofolio/Detail.tsx",
+      "halaman/portofolio/Main.tsx",
+      "halaman/portofolio/Preview.tsx",
+      "halaman/portofolio/Publik.tsx",
+      "halaman/portofolio/SectionAmbefit.tsx",
+      "halaman/portofolio/SectionMelinPerfume.tsx",
+      "halaman/portofolio/SectionMinnatulHuda.tsx",
+      "halaman/portofolio/SectionVanySongket.tsx",
+      "halaman/portofolio/SectionWikara.tsx",
+      "halaman/portofolio/SectionWorldStreet.tsx",
+      "halaman/single-page/Kontak.tsx",
+      "halaman/single-page/Tentang.tsx",
+      "index.css",
+      "index.tsx",
+      "types.ts",
+      "utils/DynamicIcon.tsx",
+      "utils/useShareableMedia.ts"
+    ],
+    "other": [
+      "bun.lock"
+    ]
+  },
+  "dependencies": [
+    {
+      "from": "App.tsx",
+      "kind": "static-import",
+      "specifier": "./components/layout/Layout",
+      "resolvedTo": "components/layout/Layout.tsx",
+      "exists": true
+    },
+    {
+      "from": "App.tsx",
+      "kind": "static-import",
+      "specifier": "./types",
+      "resolvedTo": "types.ts",
+      "exists": true
+    },
+    {
+      "from": "App.tsx",
+      "kind": "static-import",
+      "specifier": "./components/seo/MetaTagManager",
+      "resolvedTo": "components/seo/MetaTagManager.tsx",
+      "exists": true
+    },
+    {
+      "from": "App.tsx",
+      "kind": "static-import",
+      "specifier": "./components/WelcomePopup",
+      "resolvedTo": "components/WelcomePopup.tsx",
+      "exists": true
+    },
+    {
+      "from": "App.tsx",
+      "kind": "static-import",
+      "specifier": "./components/chat/ChatAssistant",
+      "resolvedTo": "components/chat/ChatAssistant.tsx",
+      "exists": true
+    },
+    {
+      "from": "App.tsx",
+      "kind": "static-import",
+      "specifier": "./components/ui/Loading",
+      "resolvedTo": "components/ui/Loading.tsx",
+      "exists": true
+    },
+    {
+      "from": "App.tsx",
+      "kind": "dynamic-import",
+      "specifier": "./halaman/beranda/Main",
+      "resolvedTo": "halaman/beranda/Main.tsx",
+      "exists": true
+    },
+    {
+      "from": "App.tsx",
+      "kind": "dynamic-import",
+      "specifier": "./halaman/single-page/Tentang",
+      "resolvedTo": "halaman/single-page/Tentang.tsx",
+      "exists": true
+    },
+    {
+      "from": "App.tsx",
+      "kind": "dynamic-import",
+      "specifier": "./halaman/single-page/Kontak",
+      "resolvedTo": "halaman/single-page/Kontak.tsx",
+      "exists": true
+    },
+    {
+      "from": "App.tsx",
+      "kind": "dynamic-import",
+      "specifier": "./halaman/layanan/main/Main",
+      "resolvedTo": "halaman/layanan/main/Main.tsx",
+      "exists": true
+    },
+    {
+      "from": "App.tsx",
+      "kind": "dynamic-import",
+      "specifier": "./halaman/portofolio/Main",
+      "resolvedTo": "halaman/portofolio/Main.tsx",
+      "exists": true
+    },
+    {
+      "from": "App.tsx",
+      "kind": "dynamic-import",
+      "specifier": "./halaman/legal/LegalPage",
+      "resolvedTo": "halaman/legal/LegalPage.tsx",
+      "exists": true
+    },
+    {
+      "from": "App.tsx",
+      "kind": "dynamic-import",
+      "specifier": "./halaman/checkout/Checkout",
+      "resolvedTo": "halaman/checkout/Checkout.tsx",
+      "exists": true
+    },
+    {
+      "from": "App.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/lottie/Logo.lottie",
+      "resolvedTo": "public/lottie/Logo.lottie",
+      "exists": true
+    },
+    {
+      "from": "components/WelcomePopup.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/gambar/welcome-popup1.webp",
+      "resolvedTo": "public/gambar/welcome-popup1.webp",
+      "exists": true
+    },
+    {
+      "from": "components/WelcomePopup.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/gambar/welcome-popup2.webp",
+      "resolvedTo": "public/gambar/welcome-popup2.webp",
+      "exists": true
+    },
+    {
+      "from": "components/WelcomePopup.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/gambar/welcome-popup3.webp",
+      "resolvedTo": "public/gambar/welcome-popup3.webp",
+      "exists": true
+    },
+    {
+      "from": "components/chat/ChatAssistant.tsx",
+      "kind": "static-import",
+      "specifier": "../../types",
+      "resolvedTo": "types.ts",
+      "exists": true
+    },
+    {
+      "from": "components/chat/ChatAssistant.tsx",
+      "kind": "static-import",
+      "specifier": "./logikaChat",
+      "resolvedTo": "components/chat/logikaChat.ts",
+      "exists": true
+    },
+    {
+      "from": "components/chat/ChatAssistant.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/gambar/logo-icon-color.png",
+      "resolvedTo": "public/gambar/logo-icon-color.png",
+      "exists": true
+    },
+    {
+      "from": "components/chat/ChatAssistant.tsx",
+      "kind": "type-import",
+      "specifier": "./respon",
+      "resolvedTo": "components/chat/respon.ts",
+      "exists": true
+    },
+    {
+      "from": "components/chat/ChatAssistant.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/gambar/logo-icon-color.png",
+      "resolvedTo": "public/gambar/logo-icon-color.png",
+      "exists": true
+    },
+    {
+      "from": "components/chat/ChatAssistant.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/gambar/logo-icon-white.png",
+      "resolvedTo": "public/gambar/logo-icon-white.png",
+      "exists": true
+    },
+    {
+      "from": "components/chat/ChatAssistant.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/gambar/logo-icon-color.png",
+      "resolvedTo": "public/gambar/logo-icon-color.png",
+      "exists": true
+    },
+    {
+      "from": "components/chat/ChatAssistant.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/gambar/logo-icon-color.png",
+      "resolvedTo": "public/gambar/logo-icon-color.png",
+      "exists": true
+    },
+    {
+      "from": "components/chat/logikaChat.ts",
+      "kind": "static-import",
+      "specifier": "./quest",
+      "resolvedTo": "components/chat/quest.ts",
+      "exists": true
+    },
+    {
+      "from": "components/chat/logikaChat.ts",
+      "kind": "static-import",
+      "specifier": "./respon",
+      "resolvedTo": "components/chat/respon.ts",
+      "exists": true
+    },
+    {
+      "from": "components/chat/respon.ts",
+      "kind": "static-import",
+      "specifier": "./quest",
+      "resolvedTo": "components/chat/quest.ts",
+      "exists": true
+    },
+    {
+      "from": "components/layout/Footer.tsx",
+      "kind": "static-import",
+      "specifier": "../../types",
+      "resolvedTo": "types.ts",
+      "exists": true
+    },
+    {
+      "from": "components/layout/Footer.tsx",
+      "kind": "static-import",
+      "specifier": "../ui/UniversalLottie",
+      "resolvedTo": "components/ui/UniversalLottie.tsx",
+      "exists": true
+    },
+    {
+      "from": "components/layout/Footer.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/lottie/Logo.lottie",
+      "resolvedTo": "public/lottie/Logo.lottie",
+      "exists": true
+    },
+    {
+      "from": "components/layout/Footer.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/gambar/logo-icon-white.png",
+      "resolvedTo": "public/gambar/logo-icon-white.png",
+      "exists": true
+    },
+    {
+      "from": "components/layout/Layout.tsx",
+      "kind": "static-import",
+      "specifier": "../../types",
+      "resolvedTo": "types.ts",
+      "exists": true
+    },
+    {
+      "from": "components/layout/Layout.tsx",
+      "kind": "static-import",
+      "specifier": "./Navbar",
+      "resolvedTo": "components/layout/Navbar.tsx",
+      "exists": true
+    },
+    {
+      "from": "components/layout/Layout.tsx",
+      "kind": "static-import",
+      "specifier": "./MobileNavigasi",
+      "resolvedTo": "components/layout/MobileNavigasi.tsx",
+      "exists": true
+    },
+    {
+      "from": "components/layout/Layout.tsx",
+      "kind": "static-import",
+      "specifier": "./Footer",
+      "resolvedTo": "components/layout/Footer.tsx",
+      "exists": true
+    },
+    {
+      "from": "components/layout/MobileNavigasi.tsx",
+      "kind": "static-import",
+      "specifier": "../../types",
+      "resolvedTo": "types.ts",
+      "exists": true
+    },
+    {
+      "from": "components/layout/Navbar.tsx",
+      "kind": "static-import",
+      "specifier": "../../types",
+      "resolvedTo": "types.ts",
+      "exists": true
+    },
+    {
+      "from": "components/layout/Navbar.tsx",
+      "kind": "static-import",
+      "specifier": "../ui/UniversalLottie",
+      "resolvedTo": "components/ui/UniversalLottie.tsx",
+      "exists": true
+    },
+    {
+      "from": "components/layout/Navbar.tsx",
+      "kind": "static-import",
+      "specifier": "./Sidebar",
+      "resolvedTo": "components/layout/Sidebar.tsx",
+      "exists": true
+    },
+    {
+      "from": "components/layout/Navbar.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/lottie/Logo.lottie",
+      "resolvedTo": "public/lottie/Logo.lottie",
+      "exists": true
+    },
+    {
+      "from": "components/layout/Navbar.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/gambar/logo-icon-color.png",
+      "resolvedTo": "public/gambar/logo-icon-color.png",
+      "exists": true
+    },
+    {
+      "from": "components/layout/Navbar.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/gambar/logo-icon-white.png",
+      "resolvedTo": "public/gambar/logo-icon-white.png",
+      "exists": true
+    },
+    {
+      "from": "components/layout/Navbar.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/gambar/logo-icon-color.png",
+      "resolvedTo": "public/gambar/logo-icon-color.png",
+      "exists": true
+    },
+    {
+      "from": "components/layout/Navbar.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/gambar/logo-icon-white.png",
+      "resolvedTo": "public/gambar/logo-icon-white.png",
+      "exists": true
+    },
+    {
+      "from": "components/layout/Sidebar.tsx",
+      "kind": "static-import",
+      "specifier": "../../types",
+      "resolvedTo": "types.ts",
+      "exists": true
+    },
+    {
+      "from": "components/layout/Sidebar.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/lottie/Logo.lottie",
+      "resolvedTo": "public/lottie/Logo.lottie",
+      "exists": true
+    },
+    {
+      "from": "components/layout/Sidebar.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/gambar/logo-icon-color.png",
+      "resolvedTo": "public/gambar/logo-icon-color.png",
+      "exists": true
+    },
+    {
+      "from": "components/seo/MetaTagManager.tsx",
+      "kind": "static-import",
+      "specifier": "../../types",
+      "resolvedTo": "types.ts",
+      "exists": true
+    },
+    {
+      "from": "components/seo/MetaTagManager.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/gambar/metatag-umum.webp",
+      "resolvedTo": "public/gambar/metatag-umum.webp",
+      "exists": true
+    },
+    {
+      "from": "components/seo/MetaTagManager.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/gambar/metatag-umum.webp",
+      "resolvedTo": "public/gambar/metatag-umum.webp",
+      "exists": true
+    },
+    {
+      "from": "components/seo/MetaTagManager.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/gambar/metatag-layanan.webp",
+      "resolvedTo": "public/gambar/metatag-layanan.webp",
+      "exists": true
+    },
+    {
+      "from": "components/seo/MetaTagManager.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/gambar/metatag-portofolio.webp",
+      "resolvedTo": "public/gambar/metatag-portofolio.webp",
+      "exists": true
+    },
+    {
+      "from": "components/seo/MetaTagManager.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/gambar/metatag-umum.webp",
+      "resolvedTo": "public/gambar/metatag-umum.webp",
+      "exists": true
+    },
+    {
+      "from": "components/seo/MetaTagManager.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/gambar/metatag-umum.webp",
+      "resolvedTo": "public/gambar/metatag-umum.webp",
+      "exists": true
+    },
+    {
+      "from": "components/seo/MetaTagManager.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/gambar/metatag-layanan.webp",
+      "resolvedTo": "public/gambar/metatag-layanan.webp",
+      "exists": true
+    },
+    {
+      "from": "components/seo/MetaTagManager.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/gambar/metatag-layanan.webp",
+      "resolvedTo": "public/gambar/metatag-layanan.webp",
+      "exists": true
+    },
+    {
+      "from": "components/seo/MetaTagManager.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/gambar/metatag-layanan.webp",
+      "resolvedTo": "public/gambar/metatag-layanan.webp",
+      "exists": true
+    },
+    {
+      "from": "components/ui/CustomDigitalMarketingBuilder.tsx",
+      "kind": "static-import",
+      "specifier": "../../types",
+      "resolvedTo": "types.ts",
+      "exists": true
+    },
+    {
+      "from": "components/ui/CustomDigitalMarketingBuilder.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/meta.png",
+      "resolvedTo": "public/icon/meta.png",
+      "exists": true
+    },
+    {
+      "from": "components/ui/CustomDigitalMarketingBuilder.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/google.png",
+      "resolvedTo": "public/icon/google.png",
+      "exists": true
+    },
+    {
+      "from": "components/ui/CustomDigitalMarketingBuilder.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/tiktok.png",
+      "resolvedTo": "public/icon/tiktok.png",
+      "exists": true
+    },
+    {
+      "from": "components/ui/CustomDigitalMarketingBuilder.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/shopee.png",
+      "resolvedTo": "public/icon/shopee.png",
+      "exists": true
+    },
+    {
+      "from": "components/ui/CustomDigitalMarketingBuilder.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/tokopedia.png",
+      "resolvedTo": "public/icon/tokopedia.png",
+      "exists": true
+    },
+    {
+      "from": "components/ui/CustomDigitalMarketingBuilder.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/instagram.png",
+      "resolvedTo": "public/icon/instagram.png",
+      "exists": true
+    },
+    {
+      "from": "components/ui/CustomDigitalMarketingBuilder.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/tiktok.png",
+      "resolvedTo": "public/icon/tiktok.png",
+      "exists": true
+    },
+    {
+      "from": "components/ui/CustomDigitalMarketingBuilder.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/facebook.png",
+      "resolvedTo": "public/icon/facebook.png",
+      "exists": true
+    },
+    {
+      "from": "components/ui/Error.tsx",
+      "kind": "static-import",
+      "specifier": "../../types",
+      "resolvedTo": "types.ts",
+      "exists": true
+    },
+    {
+      "from": "components/ui/VideoPopup.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/gambar/logo-icon-white.png",
+      "resolvedTo": "public/gambar/logo-icon-white.png",
+      "exists": true
+    },
+    {
+      "from": "components/ui/VideoPopup.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/gambar/logo-icon-white.png",
+      "resolvedTo": "public/gambar/logo-icon-white.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/beranda/FeaturedServices.tsx",
+      "kind": "static-import",
+      "specifier": "../../types",
+      "resolvedTo": "types.ts",
+      "exists": true
+    },
+    {
+      "from": "halaman/beranda/FeaturedServices.tsx",
+      "kind": "static-import",
+      "specifier": "../../utils/DynamicIcon",
+      "resolvedTo": "utils/DynamicIcon.tsx",
+      "exists": true
+    },
+    {
+      "from": "halaman/beranda/FeaturedServices.tsx",
+      "kind": "static-import",
+      "specifier": "../../components/ui/UniversalLottie",
+      "resolvedTo": "components/ui/UniversalLottie.tsx",
+      "exists": true
+    },
+    {
+      "from": "halaman/beranda/Hero.tsx",
+      "kind": "static-import",
+      "specifier": "../../types",
+      "resolvedTo": "types.ts",
+      "exists": true
+    },
+    {
+      "from": "halaman/beranda/Hero.tsx",
+      "kind": "static-import",
+      "specifier": "../portofolio/Publik",
+      "resolvedTo": "halaman/portofolio/Publik.tsx",
+      "exists": true
+    },
+    {
+      "from": "halaman/beranda/Hero.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/gambar/banner-desktop1.webp",
+      "resolvedTo": "public/gambar/banner-desktop1.webp",
+      "exists": true
+    },
+    {
+      "from": "halaman/beranda/Hero.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/gambar/banner-desktop2.webp",
+      "resolvedTo": "public/gambar/banner-desktop2.webp",
+      "exists": true
+    },
+    {
+      "from": "halaman/beranda/Hero.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/gambar/banner-desktop3.webp",
+      "resolvedTo": "public/gambar/banner-desktop3.webp",
+      "exists": true
+    },
+    {
+      "from": "halaman/beranda/Hero.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/gambar/banner-mobile1.webp",
+      "resolvedTo": "public/gambar/banner-mobile1.webp",
+      "exists": true
+    },
+    {
+      "from": "halaman/beranda/Hero.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/gambar/banner-mobile2.webp",
+      "resolvedTo": "public/gambar/banner-mobile2.webp",
+      "exists": true
+    },
+    {
+      "from": "halaman/beranda/Hero.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/gambar/banner-mobile3.webp",
+      "resolvedTo": "public/gambar/banner-mobile3.webp",
+      "exists": true
+    },
+    {
+      "from": "halaman/beranda/Main.tsx",
+      "kind": "static-import",
+      "specifier": "../../types",
+      "resolvedTo": "types.ts",
+      "exists": true
+    },
+    {
+      "from": "halaman/beranda/Main.tsx",
+      "kind": "static-import",
+      "specifier": "./Hero",
+      "resolvedTo": "halaman/beranda/Hero.tsx",
+      "exists": true
+    },
+    {
+      "from": "halaman/beranda/Main.tsx",
+      "kind": "static-import",
+      "specifier": "./QuickAccess",
+      "resolvedTo": "halaman/beranda/QuickAccess.tsx",
+      "exists": true
+    },
+    {
+      "from": "halaman/beranda/Main.tsx",
+      "kind": "static-import",
+      "specifier": "./NationalReach",
+      "resolvedTo": "halaman/beranda/NationalReach.tsx",
+      "exists": true
+    },
+    {
+      "from": "halaman/beranda/Main.tsx",
+      "kind": "static-import",
+      "specifier": "./FeaturedServices",
+      "resolvedTo": "halaman/beranda/FeaturedServices.tsx",
+      "exists": true
+    },
+    {
+      "from": "halaman/beranda/Main.tsx",
+      "kind": "static-import",
+      "specifier": "./Workflow",
+      "resolvedTo": "halaman/beranda/Workflow.tsx",
+      "exists": true
+    },
+    {
+      "from": "halaman/beranda/Main.tsx",
+      "kind": "static-import",
+      "specifier": "./TechStack",
+      "resolvedTo": "halaman/beranda/TechStack.tsx",
+      "exists": true
+    },
+    {
+      "from": "halaman/beranda/Main.tsx",
+      "kind": "static-import",
+      "specifier": "./Testimonials",
+      "resolvedTo": "halaman/beranda/Testimonials.tsx",
+      "exists": true
+    },
+    {
+      "from": "halaman/beranda/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/lottie/IndonesiaConnect.lottie",
+      "resolvedTo": "public/lottie/IndonesiaConnect.lottie",
+      "exists": true
+    },
+    {
+      "from": "halaman/beranda/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/lottie/LoadingRocket.lottie",
+      "resolvedTo": "public/lottie/LoadingRocket.lottie",
+      "exists": true
+    },
+    {
+      "from": "halaman/beranda/NationalReach.tsx",
+      "kind": "static-import",
+      "specifier": "../../utils/DynamicIcon",
+      "resolvedTo": "utils/DynamicIcon.tsx",
+      "exists": true
+    },
+    {
+      "from": "halaman/beranda/NationalReach.tsx",
+      "kind": "static-import",
+      "specifier": "../../components/ui/UniversalLottie",
+      "resolvedTo": "components/ui/UniversalLottie.tsx",
+      "exists": true
+    },
+    {
+      "from": "halaman/beranda/QuickAccess.tsx",
+      "kind": "static-import",
+      "specifier": "../../types",
+      "resolvedTo": "types.ts",
+      "exists": true
+    },
+    {
+      "from": "halaman/beranda/Workflow.tsx",
+      "kind": "static-import",
+      "specifier": "../../utils/DynamicIcon",
+      "resolvedTo": "utils/DynamicIcon.tsx",
+      "exists": true
+    },
+    {
+      "from": "halaman/checkout/Checkout.tsx",
+      "kind": "static-import",
+      "specifier": "../../types",
+      "resolvedTo": "types.ts",
+      "exists": true
+    },
+    {
+      "from": "halaman/checkout/Checkout.tsx",
+      "kind": "static-import",
+      "specifier": "./CheckoutStep1",
+      "resolvedTo": "halaman/checkout/CheckoutStep1.tsx",
+      "exists": true
+    },
+    {
+      "from": "halaman/checkout/Checkout.tsx",
+      "kind": "static-import",
+      "specifier": "./CheckoutStep2",
+      "resolvedTo": "halaman/checkout/CheckoutStep2.tsx",
+      "exists": true
+    },
+    {
+      "from": "halaman/checkout/Checkout.tsx",
+      "kind": "static-import",
+      "specifier": "./CheckoutStep3",
+      "resolvedTo": "halaman/checkout/CheckoutStep3.tsx",
+      "exists": true
+    },
+    {
+      "from": "halaman/checkout/Checkout.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/gambar/logo-icon-color.png",
+      "resolvedTo": "public/gambar/logo-icon-color.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/main/Main.tsx",
+      "kind": "static-import",
+      "specifier": "../../../types",
+      "resolvedTo": "types.ts",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/main/Main.tsx",
+      "kind": "static-import",
+      "specifier": "../../../utils/DynamicIcon",
+      "resolvedTo": "utils/DynamicIcon.tsx",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/main/Main.tsx",
+      "kind": "static-import",
+      "specifier": "../paket/IklanIn",
+      "resolvedTo": "halaman/layanan/paket/IklanIn.tsx",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/main/Main.tsx",
+      "kind": "static-import",
+      "specifier": "../paket/WebsiteIn",
+      "resolvedTo": "halaman/layanan/paket/WebsiteIn.tsx",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/main/Main.tsx",
+      "kind": "static-import",
+      "specifier": "../paket/KreatifIn",
+      "resolvedTo": "halaman/layanan/paket/KreatifIn.tsx",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/main/Main.tsx",
+      "kind": "static-import",
+      "specifier": "../paket/Main",
+      "resolvedTo": "halaman/layanan/paket/Main.tsx",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/main/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/lottie/SosialMedia.lottie",
+      "resolvedTo": "public/lottie/SosialMedia.lottie",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/main/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/lottie/Website.lottie",
+      "resolvedTo": "public/lottie/Website.lottie",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/main/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/lottie/VideoCreator.lottie",
+      "resolvedTo": "public/lottie/VideoCreator.lottie",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/main/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/lottie/SosialMedia.lottie",
+      "resolvedTo": "public/lottie/SosialMedia.lottie",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/main/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/lottie/VideoCreator.lottie",
+      "resolvedTo": "public/lottie/VideoCreator.lottie",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/main/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/gambar/banner-desktop5.webp",
+      "resolvedTo": "public/gambar/banner-desktop5.webp",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/main/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/gambar/banner-mobile5.webp",
+      "resolvedTo": "public/gambar/banner-mobile5.webp",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/IklanIn.tsx",
+      "kind": "static-import",
+      "specifier": "../../../types",
+      "resolvedTo": "types.ts",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/IklanIn.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/gambar/pilihan-layanan1.webp",
+      "resolvedTo": "public/gambar/pilihan-layanan1.webp",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/KreatifIn.tsx",
+      "kind": "static-import",
+      "specifier": "../../../types",
+      "resolvedTo": "types.ts",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/KreatifIn.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/gambar/pilihan-layanan3.webp",
+      "resolvedTo": "public/gambar/pilihan-layanan3.webp",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "static-import",
+      "specifier": "../../../types",
+      "resolvedTo": "types.ts",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "static-import",
+      "specifier": "../../../components/ui/CustomDigitalMarketingBuilder",
+      "resolvedTo": "components/ui/CustomDigitalMarketingBuilder.tsx",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "static-import",
+      "specifier": "../../../public/data/opsiHarga-digital-marketing.json",
+      "resolvedTo": "public/data/opsiHarga-digital-marketing.json",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "static-import",
+      "specifier": "../../../public/data/opsiHarga-website-aplikasi.json",
+      "resolvedTo": "public/data/opsiHarga-website-aplikasi.json",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "static-import",
+      "specifier": "../../../public/data/opsiHarga-konten-live.json",
+      "resolvedTo": "public/data/opsiHarga-konten-live.json",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/windows.png",
+      "resolvedTo": "public/icon/windows.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/ios.png",
+      "resolvedTo": "public/icon/ios.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/android.png",
+      "resolvedTo": "public/icon/android.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/pwa.png",
+      "resolvedTo": "public/icon/pwa.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/playstore.png",
+      "resolvedTo": "public/icon/playstore.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/appstroe.png",
+      "resolvedTo": "public/icon/appstroe.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/gambar/banner-desktop2.webp",
+      "resolvedTo": "public/gambar/banner-desktop2.webp",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/gambar/banner-mobile2.webp",
+      "resolvedTo": "public/gambar/banner-mobile2.webp",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/gambar/banner-desktop1.webp",
+      "resolvedTo": "public/gambar/banner-desktop1.webp",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/gambar/banner-mobile1.webp",
+      "resolvedTo": "public/gambar/banner-mobile1.webp",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/gambar/banner-desktop3.webp",
+      "resolvedTo": "public/gambar/banner-desktop3.webp",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/gambar/banner-mobile3.webp",
+      "resolvedTo": "public/gambar/banner-mobile3.webp",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/gambar/banner-desktop1.webp",
+      "resolvedTo": "public/gambar/banner-desktop1.webp",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/gambar/banner-mobile1.webp",
+      "resolvedTo": "public/gambar/banner-mobile1.webp",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/form.png",
+      "resolvedTo": "public/icon/form.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/form.png",
+      "resolvedTo": "public/icon/form.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/whatsapp.png",
+      "resolvedTo": "public/icon/whatsapp.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/maps.png",
+      "resolvedTo": "public/icon/maps.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/gmail.png",
+      "resolvedTo": "public/icon/gmail.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/chat-custom.png",
+      "resolvedTo": "public/icon/chat-custom.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/payment-card.png",
+      "resolvedTo": "public/icon/payment-card.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/translate.png",
+      "resolvedTo": "public/icon/translate.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/kurs.png",
+      "resolvedTo": "public/icon/kurs.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/social-media.png",
+      "resolvedTo": "public/icon/social-media.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/chat-asisten.png",
+      "resolvedTo": "public/icon/chat-asisten.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/database-link.png",
+      "resolvedTo": "public/icon/database-link.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/api.png",
+      "resolvedTo": "public/icon/api.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/ailab-akses.png",
+      "resolvedTo": "public/icon/ailab-akses.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/custom-akses.png",
+      "resolvedTo": "public/icon/custom-akses.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/github.png",
+      "resolvedTo": "public/icon/github.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/static.png",
+      "resolvedTo": "public/icon/static.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/cloudflare.png",
+      "resolvedTo": "public/icon/cloudflare.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/windows.png",
+      "resolvedTo": "public/icon/windows.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/ios.png",
+      "resolvedTo": "public/icon/ios.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/android.png",
+      "resolvedTo": "public/icon/android.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/pwa.png",
+      "resolvedTo": "public/icon/pwa.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/playstore.png",
+      "resolvedTo": "public/icon/playstore.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/appstroe.png",
+      "resolvedTo": "public/icon/appstroe.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/vercel.png",
+      "resolvedTo": "public/icon/vercel.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/form.png",
+      "resolvedTo": "public/icon/form.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/whatsapp.png",
+      "resolvedTo": "public/icon/whatsapp.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/maps.png",
+      "resolvedTo": "public/icon/maps.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/gmail.png",
+      "resolvedTo": "public/icon/gmail.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/chat-custom.png",
+      "resolvedTo": "public/icon/chat-custom.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/payment-card.png",
+      "resolvedTo": "public/icon/payment-card.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/social-media.png",
+      "resolvedTo": "public/icon/social-media.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/chat-asisten.png",
+      "resolvedTo": "public/icon/chat-asisten.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/translate.png",
+      "resolvedTo": "public/icon/translate.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/kurs.png",
+      "resolvedTo": "public/icon/kurs.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/api.png",
+      "resolvedTo": "public/icon/api.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/database-link.png",
+      "resolvedTo": "public/icon/database-link.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/windows.png",
+      "resolvedTo": "public/icon/windows.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/ios.png",
+      "resolvedTo": "public/icon/ios.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/android.png",
+      "resolvedTo": "public/icon/android.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/pwa.png",
+      "resolvedTo": "public/icon/pwa.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/appstroe.png",
+      "resolvedTo": "public/icon/appstroe.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/playstore.png",
+      "resolvedTo": "public/icon/playstore.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/vercel.png",
+      "resolvedTo": "public/icon/vercel.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/form.png",
+      "resolvedTo": "public/icon/form.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/form.png",
+      "resolvedTo": "public/icon/form.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/whatsapp.png",
+      "resolvedTo": "public/icon/whatsapp.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/maps.png",
+      "resolvedTo": "public/icon/maps.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/gmail.png",
+      "resolvedTo": "public/icon/gmail.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/chat-custom.png",
+      "resolvedTo": "public/icon/chat-custom.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/payment-card.png",
+      "resolvedTo": "public/icon/payment-card.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/translate.png",
+      "resolvedTo": "public/icon/translate.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/kurs.png",
+      "resolvedTo": "public/icon/kurs.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/social-media.png",
+      "resolvedTo": "public/icon/social-media.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/chat-asisten.png",
+      "resolvedTo": "public/icon/chat-asisten.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/database-link.png",
+      "resolvedTo": "public/icon/database-link.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/api.png",
+      "resolvedTo": "public/icon/api.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/github.png",
+      "resolvedTo": "public/icon/github.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/cloudflare.png",
+      "resolvedTo": "public/icon/cloudflare.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/api.png",
+      "resolvedTo": "public/icon/api.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/vercel.png",
+      "resolvedTo": "public/icon/vercel.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/windows.png",
+      "resolvedTo": "public/icon/windows.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/ios.png",
+      "resolvedTo": "public/icon/ios.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/android.png",
+      "resolvedTo": "public/icon/android.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/pwa.png",
+      "resolvedTo": "public/icon/pwa.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/playstore.png",
+      "resolvedTo": "public/icon/playstore.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/Main.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/icon/appstroe.png",
+      "resolvedTo": "public/icon/appstroe.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/WebsiteIn.tsx",
+      "kind": "static-import",
+      "specifier": "../../../types",
+      "resolvedTo": "types.ts",
+      "exists": true
+    },
+    {
+      "from": "halaman/layanan/paket/WebsiteIn.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/gambar/pilihan-layanan2.webp",
+      "resolvedTo": "public/gambar/pilihan-layanan2.webp",
+      "exists": true
+    },
+    {
+      "from": "halaman/legal/LegalPage.tsx",
+      "kind": "static-import",
+      "specifier": "../../types",
+      "resolvedTo": "types.ts",
+      "exists": true
+    },
+    {
+      "from": "halaman/legal/LegalPage.tsx",
+      "kind": "static-import",
+      "specifier": "../../components/ui/Error",
+      "resolvedTo": "components/ui/Error.tsx",
+      "exists": true
+    },
+    {
+      "from": "halaman/portofolio/Detail.tsx",
+      "kind": "static-import",
+      "specifier": "../../types",
+      "resolvedTo": "types.ts",
+      "exists": true
+    },
+    {
+      "from": "halaman/portofolio/Detail.tsx",
+      "kind": "static-import",
+      "specifier": "../../components/ui/MetricCharts",
+      "resolvedTo": "components/ui/MetricCharts.tsx",
+      "exists": true
+    },
+    {
+      "from": "halaman/portofolio/Main.tsx",
+      "kind": "static-import",
+      "specifier": "./Publik",
+      "resolvedTo": "halaman/portofolio/Publik.tsx",
+      "exists": true
+    },
+    {
+      "from": "halaman/portofolio/Main.tsx",
+      "kind": "static-import",
+      "specifier": "./Detail",
+      "resolvedTo": "halaman/portofolio/Detail.tsx",
+      "exists": true
+    },
+    {
+      "from": "halaman/portofolio/Main.tsx",
+      "kind": "static-import",
+      "specifier": "./Preview",
+      "resolvedTo": "halaman/portofolio/Preview.tsx",
+      "exists": true
+    },
+    {
+      "from": "halaman/portofolio/Main.tsx",
+      "kind": "static-import",
+      "specifier": "../../types",
+      "resolvedTo": "types.ts",
+      "exists": true
+    },
+    {
+      "from": "halaman/portofolio/Publik.tsx",
+      "kind": "static-import",
+      "specifier": "../../types",
+      "resolvedTo": "types.ts",
+      "exists": true
+    },
+    {
+      "from": "halaman/portofolio/Publik.tsx",
+      "kind": "static-import",
+      "specifier": "./SectionAmbefit",
+      "resolvedTo": "halaman/portofolio/SectionAmbefit.tsx",
+      "exists": true
+    },
+    {
+      "from": "halaman/portofolio/Publik.tsx",
+      "kind": "static-import",
+      "specifier": "./SectionMinnatulHuda",
+      "resolvedTo": "halaman/portofolio/SectionMinnatulHuda.tsx",
+      "exists": true
+    },
+    {
+      "from": "halaman/portofolio/Publik.tsx",
+      "kind": "static-import",
+      "specifier": "./SectionMelinPerfume",
+      "resolvedTo": "halaman/portofolio/SectionMelinPerfume.tsx",
+      "exists": true
+    },
+    {
+      "from": "halaman/portofolio/Publik.tsx",
+      "kind": "static-import",
+      "specifier": "./SectionWikara",
+      "resolvedTo": "halaman/portofolio/SectionWikara.tsx",
+      "exists": true
+    },
+    {
+      "from": "halaman/portofolio/Publik.tsx",
+      "kind": "static-import",
+      "specifier": "./SectionWorldStreet",
+      "resolvedTo": "halaman/portofolio/SectionWorldStreet.tsx",
+      "exists": true
+    },
+    {
+      "from": "halaman/portofolio/Publik.tsx",
+      "kind": "static-import",
+      "specifier": "./SectionVanySongket",
+      "resolvedTo": "halaman/portofolio/SectionVanySongket.tsx",
+      "exists": true
+    },
+    {
+      "from": "halaman/portofolio/Publik.tsx",
+      "kind": "static-import",
+      "specifier": "../../components/ui/InViewVideo",
+      "resolvedTo": "components/ui/InViewVideo.tsx",
+      "exists": true
+    },
+    {
+      "from": "halaman/portofolio/Publik.tsx",
+      "kind": "static-import",
+      "specifier": "../../components/ui/VideoPopup",
+      "resolvedTo": "components/ui/VideoPopup.tsx",
+      "exists": true
+    },
+    {
+      "from": "halaman/portofolio/Publik.tsx",
+      "kind": "static-import",
+      "specifier": "../../utils/useShareableMedia",
+      "resolvedTo": "utils/useShareableMedia.ts",
+      "exists": true
+    },
+    {
+      "from": "halaman/portofolio/Publik.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/gambar/banner-desktop4.webp",
+      "resolvedTo": "public/gambar/banner-desktop4.webp",
+      "exists": true
+    },
+    {
+      "from": "halaman/portofolio/Publik.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/gambar/banner-mobile4.webp",
+      "resolvedTo": "public/gambar/banner-mobile4.webp",
+      "exists": true
+    },
+    {
+      "from": "halaman/portofolio/SectionAmbefit.tsx",
+      "kind": "static-import",
+      "specifier": "../../components/ui/VideoPopup",
+      "resolvedTo": "components/ui/VideoPopup.tsx",
+      "exists": true
+    },
+    {
+      "from": "halaman/portofolio/SectionAmbefit.tsx",
+      "kind": "static-import",
+      "specifier": "../../components/ui/InViewVideo",
+      "resolvedTo": "components/ui/InViewVideo.tsx",
+      "exists": true
+    },
+    {
+      "from": "halaman/portofolio/SectionAmbefit.tsx",
+      "kind": "static-import",
+      "specifier": "../../components/ui/ExpandableText",
+      "resolvedTo": "components/ui/ExpandableText.tsx",
+      "exists": true
+    },
+    {
+      "from": "halaman/portofolio/SectionAmbefit.tsx",
+      "kind": "static-import",
+      "specifier": "../../utils/useShareableMedia",
+      "resolvedTo": "utils/useShareableMedia.ts",
+      "exists": true
+    },
+    {
+      "from": "halaman/portofolio/SectionMelinPerfume.tsx",
+      "kind": "static-import",
+      "specifier": "../../components/ui/ExpandableText",
+      "resolvedTo": "components/ui/ExpandableText.tsx",
+      "exists": true
+    },
+    {
+      "from": "halaman/portofolio/SectionMelinPerfume.tsx",
+      "kind": "static-import",
+      "specifier": "../../utils/useShareableMedia",
+      "resolvedTo": "utils/useShareableMedia.ts",
+      "exists": true
+    },
+    {
+      "from": "halaman/portofolio/SectionMelinPerfume.tsx",
+      "kind": "static-import",
+      "specifier": "../../components/ui/VideoPopup",
+      "resolvedTo": "components/ui/VideoPopup.tsx",
+      "exists": true
+    },
+    {
+      "from": "halaman/portofolio/SectionMinnatulHuda.tsx",
+      "kind": "static-import",
+      "specifier": "../../components/ui/ExpandableText",
+      "resolvedTo": "components/ui/ExpandableText.tsx",
+      "exists": true
+    },
+    {
+      "from": "halaman/portofolio/SectionVanySongket.tsx",
+      "kind": "static-import",
+      "specifier": "../../components/ui/VideoPopup",
+      "resolvedTo": "components/ui/VideoPopup.tsx",
+      "exists": true
+    },
+    {
+      "from": "halaman/portofolio/SectionVanySongket.tsx",
+      "kind": "static-import",
+      "specifier": "../../components/ui/InViewVideo",
+      "resolvedTo": "components/ui/InViewVideo.tsx",
+      "exists": true
+    },
+    {
+      "from": "halaman/portofolio/SectionVanySongket.tsx",
+      "kind": "static-import",
+      "specifier": "../../components/ui/ExpandableText",
+      "resolvedTo": "components/ui/ExpandableText.tsx",
+      "exists": true
+    },
+    {
+      "from": "halaman/portofolio/SectionVanySongket.tsx",
+      "kind": "static-import",
+      "specifier": "../../utils/useShareableMedia",
+      "resolvedTo": "utils/useShareableMedia.ts",
+      "exists": true
+    },
+    {
+      "from": "halaman/portofolio/SectionWikara.tsx",
+      "kind": "static-import",
+      "specifier": "../../components/ui/VideoPopup",
+      "resolvedTo": "components/ui/VideoPopup.tsx",
+      "exists": true
+    },
+    {
+      "from": "halaman/portofolio/SectionWikara.tsx",
+      "kind": "static-import",
+      "specifier": "../../components/ui/InViewVideo",
+      "resolvedTo": "components/ui/InViewVideo.tsx",
+      "exists": true
+    },
+    {
+      "from": "halaman/portofolio/SectionWikara.tsx",
+      "kind": "static-import",
+      "specifier": "../../components/ui/ExpandableText",
+      "resolvedTo": "components/ui/ExpandableText.tsx",
+      "exists": true
+    },
+    {
+      "from": "halaman/portofolio/SectionWikara.tsx",
+      "kind": "static-import",
+      "specifier": "../../utils/useShareableMedia",
+      "resolvedTo": "utils/useShareableMedia.ts",
+      "exists": true
+    },
+    {
+      "from": "halaman/portofolio/SectionWorldStreet.tsx",
+      "kind": "static-import",
+      "specifier": "../../components/ui/ExpandableText",
+      "resolvedTo": "components/ui/ExpandableText.tsx",
+      "exists": true
+    },
+    {
+      "from": "halaman/portofolio/SectionWorldStreet.tsx",
+      "kind": "static-import",
+      "specifier": "../../utils/useShareableMedia",
+      "resolvedTo": "utils/useShareableMedia.ts",
+      "exists": true
+    },
+    {
+      "from": "halaman/portofolio/SectionWorldStreet.tsx",
+      "kind": "static-import",
+      "specifier": "../../components/ui/VideoPopup",
+      "resolvedTo": "components/ui/VideoPopup.tsx",
+      "exists": true
+    },
+    {
+      "from": "halaman/single-page/Kontak.tsx",
+      "kind": "static-import",
+      "specifier": "../../types",
+      "resolvedTo": "types.ts",
+      "exists": true
+    },
+    {
+      "from": "halaman/single-page/Kontak.tsx",
+      "kind": "public-asset-path",
+      "specifier": "/gambar/logo-icon-color.png",
+      "resolvedTo": "public/gambar/logo-icon-color.png",
+      "exists": true
+    },
+    {
+      "from": "halaman/single-page/Tentang.tsx",
+      "kind": "static-import",
+      "specifier": "../../types",
+      "resolvedTo": "types.ts",
+      "exists": true
+    },
+    {
+      "from": "index.tsx",
+      "kind": "static-import",
+      "specifier": "./App",
+      "resolvedTo": "App.tsx",
+      "exists": true
+    },
+    {
+      "from": "index.tsx",
+      "kind": "static-import",
+      "specifier": "./index.css",
+      "resolvedTo": "index.css",
+      "exists": true
+    }
+  ],
+  "brokenBeforeRefactor": []
+}

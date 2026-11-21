@@ -1,0 +1,961 @@
+{
+  "generatedAt": "2026-11-20T05:01:39.090Z",
+  "totalFiles": 136,
+  "changedCount": 66,
+  "unchangedCount": 70,
+  "collisions": [],
+  "mappings": [
+    {
+      "oldPath": ".env.example",
+      "newPath": ".env.example",
+      "action": "keep",
+      "reason": "Framework/tooling root file preserved",
+      "status": "Pending"
+    },
+    {
+      "oldPath": ".gitignore",
+      "newPath": ".gitignore",
+      "action": "keep",
+      "reason": "Framework/tooling root file preserved",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "App.tsx",
+      "newPath": "src/app.tsx",
+      "action": "move",
+      "reason": "Root application component relocated to src/ in kebab-case",
+      "status": "Completed"
+    },
+    {
+      "oldPath": "README.md",
+      "newPath": "README.md",
+      "action": "keep",
+      "reason": "Framework/tooling root file preserved",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "bun.lock",
+      "newPath": "bun.lock",
+      "action": "keep",
+      "reason": "Framework/tooling root file preserved",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "components/WelcomePopup.tsx",
+      "newPath": "src/components/common/welcome-popup.tsx",
+      "action": "move",
+      "reason": "Shared popup component organized under src/components/common/",
+      "status": "Completed"
+    },
+    {
+      "oldPath": "components/chat/ChatAssistant.tsx",
+      "newPath": "src/features/chat/chat-assistant.tsx",
+      "action": "move",
+      "reason": "Chat domain module relocated from components/chat/ to src/features/chat/",
+      "status": "Completed"
+    },
+    {
+      "oldPath": "components/chat/logikaChat.ts",
+      "newPath": "src/features/chat/logika-chat.ts",
+      "action": "move",
+      "reason": "Chat domain module relocated from components/chat/ to src/features/chat/",
+      "status": "Completed"
+    },
+    {
+      "oldPath": "components/chat/quest.ts",
+      "newPath": "src/features/chat/quest.ts",
+      "action": "move",
+      "reason": "Chat domain module relocated from components/chat/ to src/features/chat/",
+      "status": "Completed"
+    },
+    {
+      "oldPath": "components/chat/respon.ts",
+      "newPath": "src/features/chat/respon.ts",
+      "action": "move",
+      "reason": "Chat domain module relocated from components/chat/ to src/features/chat/",
+      "status": "Completed"
+    },
+    {
+      "oldPath": "components/layout/Footer.tsx",
+      "newPath": "src/components/layout/footer.tsx",
+      "action": "move",
+      "reason": "Component relocated to src/components/ in lowercase kebab-case",
+      "status": "Completed"
+    },
+    {
+      "oldPath": "components/layout/Layout.tsx",
+      "newPath": "src/components/layout/layout.tsx",
+      "action": "move",
+      "reason": "Component relocated to src/components/ in lowercase kebab-case",
+      "status": "Completed"
+    },
+    {
+      "oldPath": "components/layout/MobileNavigasi.tsx",
+      "newPath": "src/components/layout/mobile-navigasi.tsx",
+      "action": "move",
+      "reason": "Component relocated to src/components/ in lowercase kebab-case",
+      "status": "Completed"
+    },
+    {
+      "oldPath": "components/layout/Navbar.tsx",
+      "newPath": "src/components/layout/navbar.tsx",
+      "action": "move",
+      "reason": "Component relocated to src/components/ in lowercase kebab-case",
+      "status": "Completed"
+    },
+    {
+      "oldPath": "components/layout/Sidebar.tsx",
+      "newPath": "src/components/layout/sidebar.tsx",
+      "action": "move",
+      "reason": "Component relocated to src/components/ in lowercase kebab-case",
+      "status": "Completed"
+    },
+    {
+      "oldPath": "components/seo/MetaTagManager.tsx",
+      "newPath": "src/components/seo/meta-tag-manager.tsx",
+      "action": "move",
+      "reason": "Component relocated to src/components/ in lowercase kebab-case",
+      "status": "Completed"
+    },
+    {
+      "oldPath": "components/ui/CustomDigitalMarketingBuilder.tsx",
+      "newPath": "src/features/services/custom-digital-marketing-builder.tsx",
+      "action": "move",
+      "reason": "Domain-specific service builder moved to src/features/services/",
+      "status": "Completed"
+    },
+    {
+      "oldPath": "components/ui/Error.tsx",
+      "newPath": "src/components/ui/error-state.tsx",
+      "action": "move",
+      "reason": "UI error component standardized to match ErrorState responsibility",
+      "status": "Completed"
+    },
+    {
+      "oldPath": "components/ui/ExpandableText.tsx",
+      "newPath": "src/components/ui/expandable-text.tsx",
+      "action": "move",
+      "reason": "Component relocated to src/components/ in lowercase kebab-case",
+      "status": "Completed"
+    },
+    {
+      "oldPath": "components/ui/InViewVideo.tsx",
+      "newPath": "src/components/ui/in-view-video.tsx",
+      "action": "move",
+      "reason": "Component relocated to src/components/ in lowercase kebab-case",
+      "status": "Completed"
+    },
+    {
+      "oldPath": "components/ui/Loading.tsx",
+      "newPath": "src/components/ui/loading.tsx",
+      "action": "move",
+      "reason": "Component relocated to src/components/ in lowercase kebab-case",
+      "status": "Completed"
+    },
+    {
+      "oldPath": "components/ui/MetricCharts.tsx",
+      "newPath": "src/components/ui/metric-charts.tsx",
+      "action": "move",
+      "reason": "Component relocated to src/components/ in lowercase kebab-case",
+      "status": "Completed"
+    },
+    {
+      "oldPath": "components/ui/ScaledIframe.tsx",
+      "newPath": "src/components/ui/scaled-iframe.tsx",
+      "action": "move",
+      "reason": "Component relocated to src/components/ in lowercase kebab-case",
+      "status": "Completed"
+    },
+    {
+      "oldPath": "components/ui/UniversalLottie.tsx",
+      "newPath": "src/components/ui/universal-lottie.tsx",
+      "action": "move",
+      "reason": "Component relocated to src/components/ in lowercase kebab-case",
+      "status": "Completed"
+    },
+    {
+      "oldPath": "components/ui/VideoPopup.tsx",
+      "newPath": "src/components/ui/video-popup.tsx",
+      "action": "move",
+      "reason": "Component relocated to src/components/ in lowercase kebab-case",
+      "status": "Completed"
+    },
+    {
+      "oldPath": "halaman/beranda/FeaturedServices.tsx",
+      "newPath": "src/pages/beranda/featured-services.tsx",
+      "action": "move",
+      "reason": "Page module relocated from halaman/ to src/pages/ in lowercase kebab-case",
+      "status": "Completed"
+    },
+    {
+      "oldPath": "halaman/beranda/Hero.tsx",
+      "newPath": "src/pages/beranda/hero.tsx",
+      "action": "move",
+      "reason": "Page module relocated from halaman/ to src/pages/ in lowercase kebab-case",
+      "status": "Completed"
+    },
+    {
+      "oldPath": "halaman/beranda/Main.tsx",
+      "newPath": "src/pages/beranda/beranda-page.tsx",
+      "action": "move",
+      "reason": "Avoid generic Main.tsx and relocate page into src/pages/beranda/",
+      "status": "Completed"
+    },
+    {
+      "oldPath": "halaman/beranda/NationalReach.tsx",
+      "newPath": "src/pages/beranda/national-reach.tsx",
+      "action": "move",
+      "reason": "Page module relocated from halaman/ to src/pages/ in lowercase kebab-case",
+      "status": "Completed"
+    },
+    {
+      "oldPath": "halaman/beranda/QuickAccess.tsx",
+      "newPath": "src/pages/beranda/quick-access.tsx",
+      "action": "move",
+      "reason": "Page module relocated from halaman/ to src/pages/ in lowercase kebab-case",
+      "status": "Completed"
+    },
+    {
+      "oldPath": "halaman/beranda/TechStack.tsx",
+      "newPath": "src/pages/beranda/tech-stack.tsx",
+      "action": "move",
+      "reason": "Page module relocated from halaman/ to src/pages/ in lowercase kebab-case",
+      "status": "Completed"
+    },
+    {
+      "oldPath": "halaman/beranda/Testimonials.tsx",
+      "newPath": "src/pages/beranda/testimonials.tsx",
+      "action": "move",
+      "reason": "Page module relocated from halaman/ to src/pages/ in lowercase kebab-case",
+      "status": "Completed"
+    },
+    {
+      "oldPath": "halaman/beranda/Workflow.tsx",
+      "newPath": "src/pages/beranda/workflow.tsx",
+      "action": "move",
+      "reason": "Page module relocated from halaman/ to src/pages/ in lowercase kebab-case",
+      "status": "Completed"
+    },
+    {
+      "oldPath": "halaman/checkout/Checkout.tsx",
+      "newPath": "src/pages/checkout/checkout-page.tsx",
+      "action": "move",
+      "reason": "Standardize checkout entry page into src/pages/checkout/",
+      "status": "Completed"
+    },
+    {
+      "oldPath": "halaman/checkout/CheckoutStep1.tsx",
+      "newPath": "src/pages/checkout/checkout-step-1.tsx",
+      "action": "move",
+      "reason": "Page module relocated from halaman/ to src/pages/ in lowercase kebab-case",
+      "status": "Completed"
+    },
+    {
+      "oldPath": "halaman/checkout/CheckoutStep2.tsx",
+      "newPath": "src/pages/checkout/checkout-step-2.tsx",
+      "action": "move",
+      "reason": "Page module relocated from halaman/ to src/pages/ in lowercase kebab-case",
+      "status": "Completed"
+    },
+    {
+      "oldPath": "halaman/checkout/CheckoutStep3.tsx",
+      "newPath": "src/pages/checkout/checkout-step-3.tsx",
+      "action": "move",
+      "reason": "Page module relocated from halaman/ to src/pages/ in lowercase kebab-case",
+      "status": "Completed"
+    },
+    {
+      "oldPath": "halaman/layanan/main/Main.tsx",
+      "newPath": "src/pages/layanan/main/layanan-page.tsx",
+      "action": "move",
+      "reason": "Avoid generic Main.tsx and relocate page into src/pages/layanan/main/",
+      "status": "Completed"
+    },
+    {
+      "oldPath": "halaman/layanan/paket/IklanIn.tsx",
+      "newPath": "src/pages/layanan/paket/iklan-in.tsx",
+      "action": "move",
+      "reason": "Page module relocated from halaman/ to src/pages/ in lowercase kebab-case",
+      "status": "Completed"
+    },
+    {
+      "oldPath": "halaman/layanan/paket/KreatifIn.tsx",
+      "newPath": "src/pages/layanan/paket/kreatif-in.tsx",
+      "action": "move",
+      "reason": "Page module relocated from halaman/ to src/pages/ in lowercase kebab-case",
+      "status": "Completed"
+    },
+    {
+      "oldPath": "halaman/layanan/paket/Main.tsx",
+      "newPath": "src/pages/layanan/paket/paket-detail-page.tsx",
+      "action": "move",
+      "reason": "Avoid generic Main.tsx and relocate page into src/pages/layanan/paket/",
+      "status": "Completed"
+    },
+    {
+      "oldPath": "halaman/layanan/paket/PackageDetail.tsx",
+      "newPath": "src/pages/layanan/paket/package-detail.tsx",
+      "action": "move",
+      "reason": "Page module relocated from halaman/ to src/pages/ in lowercase kebab-case",
+      "status": "Completed"
+    },
+    {
+      "oldPath": "halaman/layanan/paket/WebsiteIn.tsx",
+      "newPath": "src/pages/layanan/paket/website-in.tsx",
+      "action": "move",
+      "reason": "Page module relocated from halaman/ to src/pages/ in lowercase kebab-case",
+      "status": "Completed"
+    },
+    {
+      "oldPath": "halaman/legal/LegalPage.tsx",
+      "newPath": "src/pages/legal/legal-page.tsx",
+      "action": "move",
+      "reason": "Page module relocated from halaman/ to src/pages/ in lowercase kebab-case",
+      "status": "Completed"
+    },
+    {
+      "oldPath": "halaman/portofolio/Detail.tsx",
+      "newPath": "src/pages/portofolio/detail.tsx",
+      "action": "move",
+      "reason": "Page module relocated from halaman/ to src/pages/ in lowercase kebab-case",
+      "status": "Completed"
+    },
+    {
+      "oldPath": "halaman/portofolio/Main.tsx",
+      "newPath": "src/pages/portofolio/portofolio-page.tsx",
+      "action": "move",
+      "reason": "Avoid generic Main.tsx and relocate page into src/pages/portofolio/",
+      "status": "Completed"
+    },
+    {
+      "oldPath": "halaman/portofolio/Preview.tsx",
+      "newPath": "src/pages/portofolio/preview.tsx",
+      "action": "move",
+      "reason": "Page module relocated from halaman/ to src/pages/ in lowercase kebab-case",
+      "status": "Completed"
+    },
+    {
+      "oldPath": "halaman/portofolio/Publik.tsx",
+      "newPath": "src/pages/portofolio/publik.tsx",
+      "action": "move",
+      "reason": "Page module relocated from halaman/ to src/pages/ in lowercase kebab-case",
+      "status": "Completed"
+    },
+    {
+      "oldPath": "halaman/portofolio/SectionAmbefit.tsx",
+      "newPath": "src/pages/portofolio/section-ambefit.tsx",
+      "action": "move",
+      "reason": "Page module relocated from halaman/ to src/pages/ in lowercase kebab-case",
+      "status": "Completed"
+    },
+    {
+      "oldPath": "halaman/portofolio/SectionMelinPerfume.tsx",
+      "newPath": "src/pages/portofolio/section-melin-perfume.tsx",
+      "action": "move",
+      "reason": "Page module relocated from halaman/ to src/pages/ in lowercase kebab-case",
+      "status": "Completed"
+    },
+    {
+      "oldPath": "halaman/portofolio/SectionMinnatulHuda.tsx",
+      "newPath": "src/pages/portofolio/section-minnatul-huda.tsx",
+      "action": "move",
+      "reason": "Page module relocated from halaman/ to src/pages/ in lowercase kebab-case",
+      "status": "Completed"
+    },
+    {
+      "oldPath": "halaman/portofolio/SectionVanySongket.tsx",
+      "newPath": "src/pages/portofolio/section-vany-songket.tsx",
+      "action": "move",
+      "reason": "Page module relocated from halaman/ to src/pages/ in lowercase kebab-case",
+      "status": "Completed"
+    },
+    {
+      "oldPath": "halaman/portofolio/SectionWikara.tsx",
+      "newPath": "src/pages/portofolio/section-wikara.tsx",
+      "action": "move",
+      "reason": "Page module relocated from halaman/ to src/pages/ in lowercase kebab-case",
+      "status": "Completed"
+    },
+    {
+      "oldPath": "halaman/portofolio/SectionWorldStreet.tsx",
+      "newPath": "src/pages/portofolio/section-world-street.tsx",
+      "action": "move",
+      "reason": "Page module relocated from halaman/ to src/pages/ in lowercase kebab-case",
+      "status": "Completed"
+    },
+    {
+      "oldPath": "halaman/single-page/Kontak.tsx",
+      "newPath": "src/pages/single-page/kontak.tsx",
+      "action": "move",
+      "reason": "Page module relocated from halaman/ to src/pages/ in lowercase kebab-case",
+      "status": "Completed"
+    },
+    {
+      "oldPath": "halaman/single-page/Tentang.tsx",
+      "newPath": "src/pages/single-page/tentang.tsx",
+      "action": "move",
+      "reason": "Page module relocated from halaman/ to src/pages/ in lowercase kebab-case",
+      "status": "Completed"
+    },
+    {
+      "oldPath": "index.css",
+      "newPath": "src/styles/index.css",
+      "action": "move",
+      "reason": "Global stylesheet relocated to src/styles/",
+      "status": "Completed"
+    },
+    {
+      "oldPath": "index.html",
+      "newPath": "index.html",
+      "action": "keep",
+      "reason": "Framework/tooling root file preserved",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "index.tsx",
+      "newPath": "src/main.tsx",
+      "action": "move",
+      "reason": "Standard Vite React entry point relocated to src/",
+      "status": "Completed"
+    },
+    {
+      "oldPath": "metadata.json",
+      "newPath": "metadata.json",
+      "action": "keep",
+      "reason": "Framework/tooling root file preserved",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "package.json",
+      "newPath": "package.json",
+      "action": "keep",
+      "reason": "Framework/tooling root file preserved",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "public/CNAME",
+      "newPath": "public/CNAME",
+      "action": "keep",
+      "reason": "Public web/deployment file preserved",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "public/ads.txt",
+      "newPath": "public/ads.txt",
+      "action": "keep",
+      "reason": "Public web/deployment file preserved",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "public/data/opsiHarga-digital-marketing.json",
+      "newPath": "src/data/opsi-harga-digital-marketing.json",
+      "action": "move",
+      "reason": "Imported JSON data moved from public/data/ to src/data/ in kebab-case",
+      "status": "Completed"
+    },
+    {
+      "oldPath": "public/data/opsiHarga-konten-live.json",
+      "newPath": "src/data/opsi-harga-konten-live.json",
+      "action": "move",
+      "reason": "Imported JSON data moved from public/data/ to src/data/ in kebab-case",
+      "status": "Completed"
+    },
+    {
+      "oldPath": "public/data/opsiHarga-website-aplikasi.json",
+      "newPath": "src/data/opsi-harga-website-aplikasi.json",
+      "action": "move",
+      "reason": "Imported JSON data moved from public/data/ to src/data/ in kebab-case",
+      "status": "Completed"
+    },
+    {
+      "oldPath": "public/emailjs.html",
+      "newPath": "public/emailjs.html",
+      "action": "keep",
+      "reason": "Public web/deployment file preserved",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "public/gambar/banner-desktop1.webp",
+      "newPath": "public/gambar/banner-desktop1.webp",
+      "action": "keep",
+      "reason": "Public asset already standardized in lowercase kebab-case",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "public/gambar/banner-desktop2.webp",
+      "newPath": "public/gambar/banner-desktop2.webp",
+      "action": "keep",
+      "reason": "Public asset already standardized in lowercase kebab-case",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "public/gambar/banner-desktop3.webp",
+      "newPath": "public/gambar/banner-desktop3.webp",
+      "action": "keep",
+      "reason": "Public asset already standardized in lowercase kebab-case",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "public/gambar/banner-desktop4.webp",
+      "newPath": "public/gambar/banner-desktop4.webp",
+      "action": "keep",
+      "reason": "Public asset already standardized in lowercase kebab-case",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "public/gambar/banner-desktop5.webp",
+      "newPath": "public/gambar/banner-desktop5.webp",
+      "action": "keep",
+      "reason": "Public asset already standardized in lowercase kebab-case",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "public/gambar/banner-mobile1.webp",
+      "newPath": "public/gambar/banner-mobile1.webp",
+      "action": "keep",
+      "reason": "Public asset already standardized in lowercase kebab-case",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "public/gambar/banner-mobile2.webp",
+      "newPath": "public/gambar/banner-mobile2.webp",
+      "action": "keep",
+      "reason": "Public asset already standardized in lowercase kebab-case",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "public/gambar/banner-mobile3.webp",
+      "newPath": "public/gambar/banner-mobile3.webp",
+      "action": "keep",
+      "reason": "Public asset already standardized in lowercase kebab-case",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "public/gambar/banner-mobile4.webp",
+      "newPath": "public/gambar/banner-mobile4.webp",
+      "action": "keep",
+      "reason": "Public asset already standardized in lowercase kebab-case",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "public/gambar/banner-mobile5.webp",
+      "newPath": "public/gambar/banner-mobile5.webp",
+      "action": "keep",
+      "reason": "Public asset already standardized in lowercase kebab-case",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "public/gambar/logo-favicon.ico",
+      "newPath": "public/gambar/logo-favicon.ico",
+      "action": "keep",
+      "reason": "Public asset already standardized in lowercase kebab-case",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "public/gambar/logo-icon-color.png",
+      "newPath": "public/gambar/logo-icon-color.png",
+      "action": "keep",
+      "reason": "Public asset already standardized in lowercase kebab-case",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "public/gambar/logo-icon-white.png",
+      "newPath": "public/gambar/logo-icon-white.png",
+      "action": "keep",
+      "reason": "Public asset already standardized in lowercase kebab-case",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "public/gambar/metatag-layanan.webp",
+      "newPath": "public/gambar/metatag-layanan.webp",
+      "action": "keep",
+      "reason": "Public asset already standardized in lowercase kebab-case",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "public/gambar/metatag-portofolio.webp",
+      "newPath": "public/gambar/metatag-portofolio.webp",
+      "action": "keep",
+      "reason": "Public asset already standardized in lowercase kebab-case",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "public/gambar/metatag-umum.webp",
+      "newPath": "public/gambar/metatag-umum.webp",
+      "action": "keep",
+      "reason": "Public asset already standardized in lowercase kebab-case",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "public/gambar/pilihan-layanan1.webp",
+      "newPath": "public/gambar/pilihan-layanan1.webp",
+      "action": "keep",
+      "reason": "Public asset already standardized in lowercase kebab-case",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "public/gambar/pilihan-layanan2.webp",
+      "newPath": "public/gambar/pilihan-layanan2.webp",
+      "action": "keep",
+      "reason": "Public asset already standardized in lowercase kebab-case",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "public/gambar/pilihan-layanan3.webp",
+      "newPath": "public/gambar/pilihan-layanan3.webp",
+      "action": "keep",
+      "reason": "Public asset already standardized in lowercase kebab-case",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "public/gambar/welcome-popup1.webp",
+      "newPath": "public/gambar/welcome-popup1.webp",
+      "action": "keep",
+      "reason": "Public asset already standardized in lowercase kebab-case",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "public/gambar/welcome-popup2.webp",
+      "newPath": "public/gambar/welcome-popup2.webp",
+      "action": "keep",
+      "reason": "Public asset already standardized in lowercase kebab-case",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "public/gambar/welcome-popup3.webp",
+      "newPath": "public/gambar/welcome-popup3.webp",
+      "action": "keep",
+      "reason": "Public asset already standardized in lowercase kebab-case",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "public/icon/ailab-akses.png",
+      "newPath": "public/icon/ailab-akses.png",
+      "action": "keep",
+      "reason": "Public asset already standardized in lowercase kebab-case",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "public/icon/android.png",
+      "newPath": "public/icon/android.png",
+      "action": "keep",
+      "reason": "Public asset already standardized in lowercase kebab-case",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "public/icon/api.png",
+      "newPath": "public/icon/api.png",
+      "action": "keep",
+      "reason": "Public asset already standardized in lowercase kebab-case",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "public/icon/appstroe.png",
+      "newPath": "public/icon/appstroe.png",
+      "action": "keep",
+      "reason": "Public asset already standardized in lowercase kebab-case",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "public/icon/chat-asisten.png",
+      "newPath": "public/icon/chat-asisten.png",
+      "action": "keep",
+      "reason": "Public asset already standardized in lowercase kebab-case",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "public/icon/chat-custom.png",
+      "newPath": "public/icon/chat-custom.png",
+      "action": "keep",
+      "reason": "Public asset already standardized in lowercase kebab-case",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "public/icon/cloudflare.png",
+      "newPath": "public/icon/cloudflare.png",
+      "action": "keep",
+      "reason": "Public asset already standardized in lowercase kebab-case",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "public/icon/custom-akses.png",
+      "newPath": "public/icon/custom-akses.png",
+      "action": "keep",
+      "reason": "Public asset already standardized in lowercase kebab-case",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "public/icon/database-link.png",
+      "newPath": "public/icon/database-link.png",
+      "action": "keep",
+      "reason": "Public asset already standardized in lowercase kebab-case",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "public/icon/facebook.png",
+      "newPath": "public/icon/facebook.png",
+      "action": "keep",
+      "reason": "Public asset already standardized in lowercase kebab-case",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "public/icon/form.png",
+      "newPath": "public/icon/form.png",
+      "action": "keep",
+      "reason": "Public asset already standardized in lowercase kebab-case",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "public/icon/github.png",
+      "newPath": "public/icon/github.png",
+      "action": "keep",
+      "reason": "Public asset already standardized in lowercase kebab-case",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "public/icon/gmail.png",
+      "newPath": "public/icon/gmail.png",
+      "action": "keep",
+      "reason": "Public asset already standardized in lowercase kebab-case",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "public/icon/google.png",
+      "newPath": "public/icon/google.png",
+      "action": "keep",
+      "reason": "Public asset already standardized in lowercase kebab-case",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "public/icon/instagram.png",
+      "newPath": "public/icon/instagram.png",
+      "action": "keep",
+      "reason": "Public asset already standardized in lowercase kebab-case",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "public/icon/ios.png",
+      "newPath": "public/icon/ios.png",
+      "action": "keep",
+      "reason": "Public asset already standardized in lowercase kebab-case",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "public/icon/kurs.png",
+      "newPath": "public/icon/kurs.png",
+      "action": "keep",
+      "reason": "Public asset already standardized in lowercase kebab-case",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "public/icon/maps.png",
+      "newPath": "public/icon/maps.png",
+      "action": "keep",
+      "reason": "Public asset already standardized in lowercase kebab-case",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "public/icon/meta.png",
+      "newPath": "public/icon/meta.png",
+      "action": "keep",
+      "reason": "Public asset already standardized in lowercase kebab-case",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "public/icon/payment-card.png",
+      "newPath": "public/icon/payment-card.png",
+      "action": "keep",
+      "reason": "Public asset already standardized in lowercase kebab-case",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "public/icon/playstore.png",
+      "newPath": "public/icon/playstore.png",
+      "action": "keep",
+      "reason": "Public asset already standardized in lowercase kebab-case",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "public/icon/pwa.png",
+      "newPath": "public/icon/pwa.png",
+      "action": "keep",
+      "reason": "Public asset already standardized in lowercase kebab-case",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "public/icon/shopee.png",
+      "newPath": "public/icon/shopee.png",
+      "action": "keep",
+      "reason": "Public asset already standardized in lowercase kebab-case",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "public/icon/social-media.png",
+      "newPath": "public/icon/social-media.png",
+      "action": "keep",
+      "reason": "Public asset already standardized in lowercase kebab-case",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "public/icon/static.png",
+      "newPath": "public/icon/static.png",
+      "action": "keep",
+      "reason": "Public asset already standardized in lowercase kebab-case",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "public/icon/tiktok.png",
+      "newPath": "public/icon/tiktok.png",
+      "action": "keep",
+      "reason": "Public asset already standardized in lowercase kebab-case",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "public/icon/tokopedia.png",
+      "newPath": "public/icon/tokopedia.png",
+      "action": "keep",
+      "reason": "Public asset already standardized in lowercase kebab-case",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "public/icon/translate.png",
+      "newPath": "public/icon/translate.png",
+      "action": "keep",
+      "reason": "Public asset already standardized in lowercase kebab-case",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "public/icon/vercel.png",
+      "newPath": "public/icon/vercel.png",
+      "action": "keep",
+      "reason": "Public asset already standardized in lowercase kebab-case",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "public/icon/whatsapp.png",
+      "newPath": "public/icon/whatsapp.png",
+      "action": "keep",
+      "reason": "Public asset already standardized in lowercase kebab-case",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "public/icon/windows.png",
+      "newPath": "public/icon/windows.png",
+      "action": "keep",
+      "reason": "Public asset already standardized in lowercase kebab-case",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "public/lottie/IndonesiaConnect.lottie",
+      "newPath": "public/lottie/indonesia-connect.lottie",
+      "action": "rename",
+      "reason": "Standardize public Lottie asset filename to kebab-case",
+      "status": "Completed"
+    },
+    {
+      "oldPath": "public/lottie/LoadingRocket.lottie",
+      "newPath": "public/lottie/loading-rocket.lottie",
+      "action": "rename",
+      "reason": "Standardize public Lottie asset filename to kebab-case",
+      "status": "Completed"
+    },
+    {
+      "oldPath": "public/lottie/Logo.lottie",
+      "newPath": "public/lottie/logo.lottie",
+      "action": "rename",
+      "reason": "Standardize public Lottie asset filename to kebab-case",
+      "status": "Completed"
+    },
+    {
+      "oldPath": "public/lottie/SosialMedia.lottie",
+      "newPath": "public/lottie/sosial-media.lottie",
+      "action": "rename",
+      "reason": "Standardize public Lottie asset filename to kebab-case",
+      "status": "Completed"
+    },
+    {
+      "oldPath": "public/lottie/VideoCreator.lottie",
+      "newPath": "public/lottie/video-creator.lottie",
+      "action": "rename",
+      "reason": "Standardize public Lottie asset filename to kebab-case",
+      "status": "Completed"
+    },
+    {
+      "oldPath": "public/lottie/Website.lottie",
+      "newPath": "public/lottie/website.lottie",
+      "action": "rename",
+      "reason": "Standardize public Lottie asset filename to kebab-case",
+      "status": "Completed"
+    },
+    {
+      "oldPath": "public/manifest.json",
+      "newPath": "public/manifest.json",
+      "action": "keep",
+      "reason": "Public web/deployment file preserved",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "public/robots.txt",
+      "newPath": "public/robots.txt",
+      "action": "keep",
+      "reason": "Public web/deployment file preserved",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "public/sitemap.xml",
+      "newPath": "public/sitemap.xml",
+      "action": "keep",
+      "reason": "Public web/deployment file preserved",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "public/sw.js",
+      "newPath": "public/sw.js",
+      "action": "keep",
+      "reason": "Public web/deployment file preserved",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "tsconfig.json",
+      "newPath": "tsconfig.json",
+      "action": "keep",
+      "reason": "Framework/tooling root file preserved",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "types.ts",
+      "newPath": "src/types/index.ts",
+      "action": "move",
+      "reason": "Shared TypeScript definitions relocated to src/types/",
+      "status": "Completed"
+    },
+    {
+      "oldPath": "utils/DynamicIcon.tsx",
+      "newPath": "src/components/ui/dynamic-icon.tsx",
+      "action": "move",
+      "reason": "Reusable React icon component moved from utils/ to src/components/ui/",
+      "status": "Completed"
+    },
+    {
+      "oldPath": "utils/useShareableMedia.ts",
+      "newPath": "src/hooks/use-shareable-media.ts",
+      "action": "move",
+      "reason": "Custom React hook moved from utils/ to src/hooks/",
+      "status": "Completed"
+    },
+    {
+      "oldPath": "vercel.json",
+      "newPath": "vercel.json",
+      "action": "keep",
+      "reason": "Framework/tooling root file preserved",
+      "status": "Pending"
+    },
+    {
+      "oldPath": "vite.config.ts",
+      "newPath": "vite.config.ts",
+      "action": "keep",
+      "reason": "Framework/tooling root file preserved",
+      "status": "Pending"
+    }
+  ]
+}

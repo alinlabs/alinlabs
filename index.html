@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' https: 'unsafe-inline' 'unsafe-eval'; img-src 'self' data: blob: https:; font-src 'self' data: https:; connect-src 'self' https:;" />
+    <meta name="google-site-verification" content="r1fSUxWdzNeh2_9Gfbi_YuFKwkhOis6TV7ZTVPHEahA" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#2563eb" />
+    <title>AlinLabs Indonesia - Ekosistem Digital & Agensi Kreatif Purwakarta</title>
+    <meta
+      name="description"
+      content="AlinLabs Indonesia adalah software house & digital agency terkemuka di Purwakarta, Subang, Karawang. Menyediakan jasa pembuatan website, integrasi AI, aplikasi, dan digital marketing."
+    />
+    <meta
+      name="keywords"
+      content="jasa pembuatan website, jasa digital purwakarta, digital marketing subang, software house karawang, agensi kreatif, integrasi AI, jasa AI, alinlabs, alinlabs indonesia"
+    />
+    <link rel="canonical" href="https://www.alinlabs.biz.id/" />
+
+    <!-- Favicon & PWA Icons -->
+    <link rel="icon" type="image/x-icon" href="/gambar/logo-favicon.ico" />
+    <link rel="apple-touch-icon" href="/gambar/logo-icon-color.png" />
+
+    <!-- Resource Hints for Faster Network Handshake -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="dns-prefetch" href="https://raw.githubusercontent.com" />
+    <link rel="dns-prefetch" href="https://media.githubusercontent.com" />
+
+    <!-- Preload Critical Above-the-Fold Assets -->
+    <link rel="preload" as="image" href="/gambar/logo-icon-color.png" />
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.alinlabs.biz.id/" />
+    <meta
+      property="og:title"
+      content="AlinLabs Indonesia | Software House & Agensi Kreatif"
+    />
+    <meta
+      property="og:description"
+      content="AlinLabs Indonesia adalah software house & digital agency terkemuka di Purwakarta, Subang, Karawang. Menyediakan jasa pembuatan website, integrasi AI, aplikasi, dan digital marketing."
+    />
+    <meta property="og:image" content="/gambar/metatag-umum.webp" />
+    <meta property="og:site_name" content="AlinLabs" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="AlinLabs Indonesia | Software House & Agensi Kreatif"
+    />
+    <meta
+      name="twitter:description"
+      content="AlinLabs Indonesia adalah software house & digital agency terkemuka di Purwakarta, Subang, Karawang. Menyediakan jasa pembuatan website, integrasi AI, aplikasi, dan digital marketing."
+    />
+    <meta name="twitter:image" content="/gambar/metatag-umum.webp" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="stylesheet" href="/src/styles/index.css" />
+    <style>
+      @keyframes bootPulse {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.55; }
+      }
+      #boot-shell {
+        height: 100vh;
+        height: 100dvh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        background: #f8fafc;
+      }
+      #boot-header {
+        flex-shrink: 0;
+        width: 100%;
+        height: 56px;
+        background: #ffffff;
+        border-bottom: 1px solid #f1f5f9;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+        box-sizing: border-box;
+      }
+      #boot-body {
+        flex: 1;
+        min-height: 0;
+        overflow: hidden;
+        background: #f8fafc;
+      }
+      #boot-hero {
+        position: relative;
+        width: 100%;
+        aspect-ratio: 4 / 3;
+        background: #e2e8f0;
+        border-bottom: 4px solid #e2e8f0;
+        animation: bootPulse 1.6s ease-in-out infinite;
+      }
+      #boot-search {
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translate(-50%, 50%);
+        width: calc(100% - 32px);
+        max-width: 56rem;
+        height: 56px;
+        background: #ffffff;
+        border-radius: 1.5rem;
+        border: 1px solid #f1f5f9;
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+        z-index: 10;
+      }
+      #boot-quick {
+        max-width: 80rem;
+        margin: 0 auto;
+        padding: 48px 16px 32px;
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 8px;
+      }
+      .boot-quick-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+      }
+      .boot-quick-box {
+        width: 64px;
+        height: 64px;
+        border-radius: 1rem;
+        background: #ffffff;
+        border: 1px solid #f1f5f9;
+        animation: bootPulse 1.6s ease-in-out infinite;
+      }
+      .boot-quick-line {
+        width: 48px;
+        height: 10px;
+        border-radius: 9999px;
+        background: #e2e8f0;
+      }
+      #boot-promo {
+        max-width: 85rem;
+        margin: 0 auto;
+        padding: 0 16px;
+      }
+      #boot-promo-box {
+        height: 224px;
+        border-radius: 1rem;
+        background: rgba(37, 99, 235, 0.12);
+        border: 1px solid rgba(191, 219, 254, 0.7);
+        animation: bootPulse 1.6s ease-in-out infinite;
+      }
+      #boot-bottom-nav {
+        position: relative;
+        flex-shrink: 0;
+        width: 100%;
+        height: 72px;
+        background: #ffffff;
+        border-top: 1px solid #f1f5f9;
+        border-top-left-radius: 1.5rem;
+        border-top-right-radius: 1.5rem;
+        box-shadow: 0 -10px 30px -10px rgba(0, 0, 0, 0.1);
+      }
+      #boot-fab {
+        position: absolute;
+        top: -20px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 56px;
+        height: 56px;
+        border-radius: 9999px;
+        background: #2563eb;
+      }
+      @media (min-width: 768px) {
+        #boot-header {
+          height: 65px;
+          border-radius: 0;
+          box-shadow: none;
+          padding: 0 32px;
+        }
+        #boot-hero {
+          aspect-ratio: 21 / 9;
+        }
+        #boot-search {
+          height: 64px;
+          border-radius: 9999px;
+        }
+        #boot-quick {
+          padding: 64px 32px 40px;
+          display: flex;
+          justify-content: center;
+          gap: 40px;
+        }
+        .boot-quick-box {
+          width: 96px;
+          height: 96px;
+          border-radius: 20px;
+        }
+        #boot-promo {
+          padding: 0 32px;
+        }
+        #boot-promo-box {
+          height: 192px;
+          border-radius: 2rem;
+        }
+        #boot-bottom-nav {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body
+    class="bg-slate-50 text-slate-900 antialiased selection:bg-[#2563eb] selection:text-white overflow-x-hidden"
+  >
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "AlinLabs Indonesia",
+        "image": "https://www.alinlabs.biz.id/gambar/logo-icon-color.png",
+        "url": "https://www.alinlabs.biz.id/",
+        "telephone": "+628123456789",
+        "priceRange": "$$",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Purwakarta",
+          "addressLocality": "Purwakarta",
+          "addressRegion": "Jawa Barat",
+          "postalCode": "41111",
+          "addressCountry": "ID"
+        },
+        "description": "AlinLabs Indonesia adalah software house & digital agency terkemuka di Purwakarta, Subang, Karawang. Menyediakan jasa pembuatan website, integrasi AI, aplikasi, dan digital marketing.",
+        "sameAs": [
+          "https://www.instagram.com/alinlabs_id/",
+          "https://www.linkedin.com/company/alinlabs/"
+        ]
+      }
+    </script>
+    <div id="root">
+      <div id="boot-shell" aria-busy="true" aria-label="Memuat AlinLabs">
+        <div id="boot-header">
+          <div style="display:flex;align-items:center;gap:10px;">
+            <div style="width:28px;height:28px;border-radius:8px;background:#e2e8f0;"></div>
+            <div style="display:flex;flex-direction:column;gap:4px;">
+              <div style="width:128px;height:14px;border-radius:6px;background:#e2e8f0;"></div>
+              <div style="width:82px;height:8px;border-radius:4px;background:#dbeafe;"></div>
+            </div>
+          </div>
+          <div style="width:24px;height:24px;border-radius:6px;background:#e2e8f0;"></div>
+        </div>
+        <div id="boot-body">
+          <div id="boot-hero">
+            <div id="boot-search"></div>
+          </div>
+          <div id="boot-quick">
+            <div class="boot-quick-card"><div class="boot-quick-box"></div><div class="boot-quick-line"></div></div>
+            <div class="boot-quick-card"><div class="boot-quick-box"></div><div class="boot-quick-line"></div></div>
+            <div class="boot-quick-card"><div class="boot-quick-box"></div><div class="boot-quick-line"></div></div>
+            <div class="boot-quick-card"><div class="boot-quick-box"></div><div class="boot-quick-line"></div></div>
+          </div>
+          <div id="boot-promo">
+            <div id="boot-promo-box"></div>
+          </div>
+        </div>
+        <div id="boot-bottom-nav">
+          <div id="boot-fab"></div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').catch(() => {});
+        });
+      }
+    </script>
+  </body>
+</html>

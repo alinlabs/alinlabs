@@ -1,0 +1,72 @@
+[
+  {
+    "nama": "Paket Starter",
+    "hargaNormal": 3500000,
+    "hargaPromo": 2500000,
+    "proyek": "Bulan",
+    "layanan": [
+      "Pembuatan 15 Desain Feed & Story",
+      "Upload Rutin & Caption",
+      "Laporan Bulanan",
+      "Optimasi Hashtag",
+      "Admin Social Media Dasar"
+    ],
+    "minimumTransaksi": 1,
+    "layananDanJaminan": [
+      "Konten 100% original desain",
+      "Tepat waktu sesuai jadwal upload"
+    ],
+    "hargaPromoTahunan": 30000000,
+    "hargaNormalTahunan": 42000000,
+    "hargaPromoLisensi": 52500000,
+    "hargaNormalLisensi": 73500000,
+    "deskripsi": "Pilihan ideal untuk bisnis baru. Bangun kehadiran online Anda dengan desain konten yang konsisten dan menarik."
+  },
+  {
+    "nama": "Paket Professional",
+    "hargaNormal": 7500000,
+    "hargaPromo": 5000000,
+    "proyek": "Bulan",
+    "layanan": [
+      "Pembuatan 30 Desain Feed & Story",
+      "Reels / TikTok Video (4 Video)",
+      "Set Up & Manajemen Ads FB/IG",
+      "Laporan Mingguan & Rapat",
+      "Konsultasi Strategi"
+    ],
+    "rekomendasi": true,
+    "minimumTransaksi": 1,
+    "layananDanJaminan": [
+      "Target KPI Jangkauan & Traffic terukur",
+      "Akses penuh ke dashboard laporan"
+    ],
+    "hargaPromoTahunan": 60000000,
+    "hargaNormalTahunan": 90000000,
+    "hargaPromoLisensi": 105000000,
+    "hargaNormalLisensi": 157500000,
+    "deskripsi": "Tingkatkan performa brand Anda dengan perpaduan konten interaktif dan kampanye iklan yang tertarget penuh."
+  },
+  {
+    "nama": "Paket Enterprise",
+    "hargaNormal": 15000000,
+    "hargaPromo": 9500000,
+    "proyek": "Bulan",
+    "layanan": [
+      "Manajemen Multi Platform (IG, FB, TikTok, X)",
+      "Kreator Konten / Talent Exclusive",
+      "Daily Ads Management & A/B Test",
+      "Analitik Lanjut",
+      "Dedicated Account Manager 24/7"
+    ],
+    "minimumTransaksi": 3,
+    "layananDanJaminan": [
+      "Peningkatan konversi terjamin (S&K)",
+      "Respons chat VIP di bawah 5 menit"
+    ],
+    "hargaPromoTahunan": 114000000,
+    "hargaNormalTahunan": 180000000,
+    "hargaPromoLisensi": 199500000,
+    "hargaNormalLisensi": 315000000,
+    "deskripsi": "Dominasi semua lini platform dengan dukungan tim VIP, talent eksklusif, dan strategi analitik untuk skala yang tak terbatas."
+  }
+]

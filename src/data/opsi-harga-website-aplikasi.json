@@ -1,0 +1,634 @@
+[
+  {
+    "nama": "LaunchPad",
+    "hargaNormal": 59000,
+    "hargaPromo": 49000,
+    "hargaNormalLisensi": 1239000,
+    "hargaPromoLisensi": 1029000,
+    "proyek": "Bulan",
+    "layanan": [
+      "1 Halaman Landing Page Statis",
+      "Desain Berdasarkan Template Premium",
+      "Struktur SEO Dasar & Responsif",
+      "Penyimpanan Konten File JSON"
+    ],
+    "integrasi": [
+      "Google Maps",
+      "Tombol WhatsApp"
+    ],
+    "gratisDomain": true,
+    "durasiGratisDomain": "1 Tahun (.my.id / .biz.id)",
+    "database": [
+      {
+        "platform": "Github",
+        "sistem": [
+          "Large JSON"
+        ]
+      }
+    ],
+    "hosting": "Vercel",
+    "durasiGratisHosting": "Selamanya (Free Tier)",
+    "minimumTransaksi": 12,
+    "osSupport": [
+      "Windows"
+    ],
+    "layananDanJaminan": [
+      "Instalasi Domain & Hosting Vercel",
+      "Integrasi Tombol WhatsApp & Peta",
+      "Group Support & Bantuan Teknis IT",
+      "Garansi Perbaikan Bug 1 Bulan"
+    ],
+    "hargaPromoTahunan": 588000,
+    "hargaNormalTahunan": 708000,
+    "deskripsi": "Landing page instan dengan desain premium, cocok untuk memvalidasi ide bisnis Anda dengan cepat dan profesional."
+  },
+  {
+    "nama": "BrandSite",
+    "hargaNormal": 99000,
+    "hargaPromo": 84000,
+    "hargaNormalLisensi": 2079000,
+    "hargaPromoLisensi": 1764000,
+    "proyek": "Bulan",
+    "layanan": [
+      "Hingga 3 Halaman Web Profil Bisnis",
+      "Desain Kustom dengan UI/UX Interaktif",
+      "Animasi Transisi Halus (Micro-interactions)",
+      "Penyimpanan Konten Multi-JSON"
+    ],
+    "integrasi": [
+      "Google Maps",
+      "Tombol WhatsApp",
+      "Google Form",
+      "Sosial Media Account"
+    ],
+    "gratisDomain": true,
+    "durasiGratisDomain": "1 Tahun (.biz.id / .site.id / .my.id)",
+    "database": [
+      {
+        "platform": "Github",
+        "sistem": [
+          "Multiplier JSON"
+        ]
+      }
+    ],
+    "hosting": "Vercel",
+    "durasiGratisHosting": "Selamanya (Free Tier)",
+    "minimumTransaksi": 12,
+    "osSupport": [
+      "Windows",
+      "Android"
+    ],
+    "layananDanJaminan": [
+      "Setup Hosting & Integrasi Google Form",
+      "Tautan Khusus ke Sosial Media",
+      "Group Support & Bantuan Teknis Khusus",
+      "Garansi Perbaikan Bug 1 Bulan"
+    ],
+    "hargaPromoTahunan": 1008000,
+    "hargaNormalTahunan": 1188000,
+    "deskripsi": "Tingkatkan kredibilitas online Anda dengan profil bisnis interaktif yang dirancang khusus untuk memukau audiens."
+  },
+  {
+    "nama": "EngageSite",
+    "hargaNormal": 179000,
+    "hargaPromo": 149000,
+    "hargaNormalLisensi": 3759000,
+    "hargaPromoLisensi": 3129000,
+    "proyek": "Bulan",
+    "layanan": [
+      "Hingga 5 Halaman Website Dinamis",
+      "Desain Modern untuk Windows, iOS & Android",
+      "Sistem Caching Cepat Berbasis Cloudflare KV",
+      "Panel Super Mengelola Data Master"
+    ],
+    "integrasi": [
+      "Multiplier Tracking",
+      "WhatsApp API",
+      "Custom Form",
+      "Sosial Media Account"
+    ],
+    "gratisDomain": true,
+    "durasiGratisDomain": "1 Tahun (.biz.id / .site.id / .my.id)",
+    "database": [
+      {
+        "platform": "Cloudflare",
+        "sistem": [
+          "KV KeyValue",
+          "Smart Cache & Cookies SIstem"
+        ]
+      }
+    ],
+    "hosting": "Vercel",
+    "durasiGratisHosting": "1 Tahun",
+    "minimumTransaksi": 12,
+    "osSupport": [
+      "Windows",
+      "iOS",
+      "Android"
+    ],
+    "aksesKontrol": {
+      "brand": "AlinLabs Panel",
+      "fitur": [
+        {
+          "role": "Super Panel",
+          "deskripsi": "Mengelola data secara menyeluruh"
+        }
+      ]
+    },
+    "layananDanJaminan": [
+      "Integrasi Multiplier Tracking & Form Custom",
+      "Konektivitas WhatsApp API Terpasang",
+      "Bantuan Teknis Cepat Lewat WhatsApp",
+      "Maintenance Bug Gratis 2 Bulan"
+    ],
+    "hargaPromoTahunan": 1788000,
+    "hargaNormalTahunan": 2148000,
+    "deskripsi": "Website dinamis multi-platform dengan sistem pengelolaan data mandiri untuk interaksi pelanggan yang lebih baik."
+  },
+  {
+    "nama": "SystemCore",
+    "hargaNormal": 289000,
+    "hargaPromo": 249000,
+    "hargaNormalLisensi": 6069000,
+    "hargaPromoLisensi": 5229000,
+    "proyek": "Bulan",
+    "layanan": [
+      "Website Backend Dasar Siap Skala",
+      "Infrastruktur Cloudflare D1 KV Database",
+      "Sistem Multi-Bahasa (Localization)",
+      "Akses Panel Multi-Level (Developer, Super Admin)"
+    ],
+    "integrasi": [
+      "Multiplier Tracking",
+      "WhatsApp API",
+      "Custom Form",
+      "Sosial Media Account",
+      "Email AutoReply",
+      "Payment Statis",
+      "MultiBahasa",
+      "Database Manager"
+    ],
+    "rekomendasi": true,
+    "gratisDomain": true,
+    "durasiGratisDomain": "1 Tahun (.store.id / .web.id / .biz.id / .site.id / .my.id)",
+    "database": [
+      {
+        "platform": "Cloudflare",
+        "sistem": [
+          "D1 Database",
+          "KV KeyValue",
+          "Smart Cache & Cookies SIstem"
+        ]
+      }
+    ],
+    "hosting": "Vercel",
+    "durasiGratisHosting": "1 Tahun",
+    "minimumTransaksi": 12,
+    "osSupport": [
+      "Windows",
+      "PWA",
+      "iOS",
+      "Android"
+    ],
+    "aksesKontrol": {
+      "brand": "AlinLabs Panel",
+      "fitur": [
+        {
+          "role": "Developer Panel",
+          "deskripsi": "Akses Source Code & Hosting"
+        },
+        {
+          "role": "Super Admin Panel",
+          "deskripsi": "Administrasi sistem menyeluruh"
+        }
+      ]
+    },
+    "layananDanJaminan": [
+      "Setup Pembayaran Statis & Email AutoReply",
+      "Optimasi App sebagai PWA (Web App)",
+      "Group Support & Layanan Konsultasi IT",
+      "Maintenance Minor & Bug Gratis 3 Bulan"
+    ],
+    "hargaPromoTahunan": 2988000,
+    "hargaNormalTahunan": 3468000,
+    "deskripsi": "Infrastruktur pondasi digital siap skala dengan multi-bahasa dan sistem pembayaran untuk jangkauan global."
+  },
+  {
+    "nama": "ManageCore",
+    "hargaNormal": 449000,
+    "hargaPromo": 399000,
+    "hargaNormalLisensi": 9429000,
+    "hargaPromoLisensi": 8379000,
+    "proyek": "Bulan",
+    "layanan": [
+      "Content Management System (CMS) Lengkap",
+      "Manajemen Database D1 & Object Storage",
+      "Integrasi Multi-Payment & Fitur Etalase",
+      "Akses Kontrol Super Admin & Admin Panel"
+    ],
+    "integrasi": [
+      "Multiplier Tracking & Rating",
+      "WhatsApp API",
+      "Smart Custom Form",
+      "Sosial Media Account",
+      "Email AutoReply & Auth",
+      "MultiPayment",
+      "MultiBahasa",
+      "Database Manager"
+    ],
+    "gratisDomain": true,
+    "durasiGratisDomain": "1 Tahun (.net / .info / .store.id / .web.id / .biz.id / .site.id / .my.id)",
+    "database": [
+      {
+        "platform": "Cloudflare",
+        "sistem": [
+          "D1 Database",
+          "KV KeyValue",
+          "Smart Cache & Cookies SIstem"
+        ]
+      }
+    ],
+    "hosting": "Vercel",
+    "durasiGratisHosting": "1 Tahun",
+    "minimumTransaksi": 12,
+    "osSupport": [
+      "Windows",
+      "PWA",
+      "iOS",
+      "Android"
+    ],
+    "aksesKontrol": {
+      "brand": "AlinLabs Panel",
+      "fitur": [
+        {
+          "role": "Developer Panel",
+          "deskripsi": "Akses Source Code & Hosting"
+        },
+        {
+          "role": "Super Admin Panel",
+          "deskripsi": "Administrasi sistem menyeluruh"
+        },
+        {
+          "role": "Admin Panel",
+          "deskripsi": "Akses terbatas halaman admin"
+        }
+      ]
+    },
+    "layananDanJaminan": [
+      "Instalasi Smart Custom Form & Email Auth",
+      "Pembuatan Aplikasi PWA Siap Pakai",
+      "Video Panduan Pengoperasian CMS Terfokus",
+      "Maintenance Sistem Penuh Gratis 3 Bulan"
+    ],
+    "ekstraDomain": [
+      ".biz.id"
+    ],
+    "hargaPromoTahunan": 4788000,
+    "hargaNormalTahunan": 5388000,
+    "deskripsi": "Kendali penuh atas bisnis digital Anda dengan CMS canggih dan integrasi multi-payment yang komprehensif."
+  },
+  {
+    "nama": "AccessPro",
+    "hargaNormal": 619000,
+    "hargaPromo": 559000,
+    "hargaNormalLisensi": 12999000,
+    "hargaPromoLisensi": 11739000,
+    "proyek": "Bulan",
+    "layanan": [
+      "Sistem Autentikasi Login & Dashboard User",
+      "Flow Checkout & Manajemen Data R2 Storage",
+      "Ketersediaan Play Store & PWA Installer",
+      "Akses Bertingkat (User, Admin, Developer)"
+    ],
+    "integrasi": [
+      "Multiplier Tracking & Rating",
+      "WhatsApp API Multiplier",
+      "Smart Custom Form",
+      "Sosial Media Account",
+      "Email AutoReply, Smart Auth & Recovery",
+      "MultiPayment Auth",
+      "Multi Bahasa & Kurs",
+      "Database Manager",
+      "Custom Chat & AsistenAi (Basic)"
+    ],
+    "gratisDomain": true,
+    "durasiGratisDomain": "1 Tahun (.com / .org / .net / .info / .store.id / .web.id / .biz.id / .site.id / .my.id)",
+    "database": [
+      {
+        "platform": "Cloudflare",
+        "sistem": [
+          "D1 Database",
+          "R2 Object Storage",
+          "KV KeyValue",
+          "Smart Cache & Cookies SIstem"
+        ]
+      }
+    ],
+    "hosting": "Vercel",
+    "durasiGratisHosting": "1 Tahun",
+    "minimumTransaksi": 12,
+    "osSupport": [
+      "Windows",
+      "PWA",
+      "iOS",
+      "Android",
+      "Play Store"
+    ],
+    "aksesKontrol": {
+      "brand": "AlinLabs Panel",
+      "fitur": [
+        {
+          "role": "Developer Panel",
+          "deskripsi": "Akses Source Code & Hosting"
+        },
+        {
+          "role": "Super Admin Panel",
+          "deskripsi": "Administrasi sistem menyeluruh"
+        },
+        {
+          "role": "Admin Panel",
+          "deskripsi": "Akses terbatas halaman admin"
+        },
+        {
+          "role": "User Panel",
+          "deskripsi": "Akses dashboard untuk pengguna"
+        }
+      ]
+    },
+    "layananDanJaminan": [
+      "Email Smart Auth, Recovery & Multi Kurs",
+      "Pemasangan Custom Chat Dasar & Asisten UI",
+      "Training Langsung Penggunaan Sistem (Daring)",
+      "Garansi & Maintenance Menyeluruh 4 Bulan"
+    ],
+    "ekstraDomain": [
+      ".biz.id"
+    ],
+    "hargaPromoTahunan": 6708000,
+    "hargaNormalTahunan": 7428000,
+    "deskripsi": "Sistem portal lengkap dengan autentikasi cerdas, cocok untuk platform membership atau aplikasi bisnis level menengah."
+  },
+  {
+    "nama": "PortalPro",
+    "hargaNormal": 859000,
+    "hargaPromo": 789000,
+    "hargaNormalLisensi": 18039000,
+    "hargaPromoLisensi": 16569000,
+    "proyek": "Bulan",
+    "layanan": [
+      "Custom Portal Pengguna & Dashboard Sistem",
+      "Database Berklaster (PostgreSQL/MySQL, R2)",
+      "Smart Custom Chat & Asisten Ai (Standard)",
+      "Layanan Konektivitas 1 Request API"
+    ],
+    "integrasi": [
+      "Multiplier Tracking & Rating",
+      "WhatsApp API Multiplier",
+      "Smart Custom Form",
+      "Sosial Media Account",
+      "Email AutoReply, Smart Auth & Recovery",
+      "MultiPayment Auth",
+      "Multi Bahasa & Kurs",
+      "Database Manager",
+      "Custom Chat & AsistenAi (Standard)",
+      "1 Request API"
+    ],
+    "gratisDomain": true,
+    "durasiGratisDomain": "1 Tahun (.com / .org / .net / .info / .store.id / .web.id / .biz.id / .site.id / .my.id)",
+    "database": [
+      {
+        "platform": "Cloudflare",
+        "sistem": [
+          "Filestore/PostgreSQL/MySQL Cluster",
+          "KV KeyValue",
+          "D1 Database",
+          "R2 Object Storage",
+          "Smart Cache & Cookies SIstem"
+        ]
+      }
+    ],
+    "hosting": "Vercel",
+    "durasiGratisHosting": "1 Tahun",
+    "minimumTransaksi": 12,
+    "osSupport": [
+      "Windows",
+      "PWA",
+      "iOS",
+      "Android",
+      "Play Store"
+    ],
+    "aksesKontrol": {
+      "brand": "Custom Panel",
+      "fitur": [
+        {
+          "role": "Developer Panel",
+          "deskripsi": "Akses Source Code & Hosting"
+        },
+        {
+          "role": "Super Admin Panel",
+          "deskripsi": "Administrasi sistem menyeluruh"
+        },
+        {
+          "role": "Admin Panel",
+          "deskripsi": "Akses terbatas halaman admin"
+        },
+        {
+          "role": "User Panel",
+          "deskripsi": "Akses dashboard untuk pengguna"
+        }
+      ]
+    },
+    "layananDanJaminan": [
+      "Konfigurasi Multi-Payment Auth Security",
+      "Bantuan Teknis Otomasi Sistem & API Eksternal",
+      "Grup Eskalasi Khusus Konsultasi Terjadwal",
+      "Maintenance Infrastruktur & Server 6 Bulan"
+    ],
+    "ekstraDomain": [
+      ".biz.id",
+      ".store"
+    ],
+    "hargaPromoTahunan": 9468000,
+    "hargaNormalTahunan": 10308000,
+    "deskripsi": "Solusi tingkat lanjut untuk portal kompleks dengan database berklaster dan asisten AI terintegrasi."
+  },
+  {
+    "nama": "GovernancePro",
+    "hargaNormal": 1199000,
+    "hargaPromo": 1119000,
+    "hargaNormalLisensi": 25179000,
+    "hargaPromoLisensi": 23499000,
+    "proyek": "Bulan",
+    "layanan": [
+      "Arsitektur Kontrol Akses Multi-Lapis Dinamis",
+      "Fungsionalitas Forum & Smart AI Custom Form",
+      "Ekspansi Layanan via 2 Eksternal Request API",
+      "Integrasi Custom Chat & Asisten Ai (Advanced)"
+    ],
+    "integrasi": [
+      "Multiplier Tracking & Rating",
+      "WhatsApp API Multiplier",
+      "Smart AI Custom Form",
+      "Sosial Media Account",
+      "Email AutoReply, Smart Auth & Recovery",
+      "MultiPayment Gateway",
+      "Multi Bahasa & Kurs",
+      "Database Manager",
+      "Custom Chat & AsistenAi (Advanced)",
+      "2 Request API"
+    ],
+    "gratisDomain": true,
+    "durasiGratisDomain": "1 Tahun (.id / .com / .org / .net / .info / .store.id / .web.id / .biz.id / .site.id / .my.id)",
+    "database": [
+      {
+        "platform": "Cloudflare",
+        "sistem": [
+          "Filestore/PostgreSQL/MySQL Cluster",
+          "KV KeyValue",
+          "D1 Database",
+          "R2 Object Storage",
+          "Smart Cache & Cookies SIstem"
+        ]
+      }
+    ],
+    "hosting": "Vercel",
+    "durasiGratisHosting": "1 Tahun",
+    "minimumTransaksi": 12,
+    "osSupport": [
+      "Windows",
+      "PWA",
+      "iOS",
+      "Android",
+      "Play Store"
+    ],
+    "aksesKontrol": {
+      "brand": "Custom Panel",
+      "fitur": [
+        {
+          "role": "Developer Panel",
+          "deskripsi": "Akses Source Code & Hosting"
+        },
+        {
+          "role": "Super Admin Panel",
+          "deskripsi": "Administrasi sistem menyeluruh"
+        },
+        {
+          "role": "Admin Panel",
+          "deskripsi": "Akses terbatas halaman admin"
+        },
+        {
+          "role": "User Panel 1",
+          "deskripsi": "Akses dashboard utama pengguna"
+        },
+        {
+          "role": "User Panel 2",
+          "deskripsi": "Akses dashboard sekunder pengguna"
+        }
+      ]
+    },
+    "layananDanJaminan": [
+      "Praktik Konsultasi Akselerasi Sistem Skala Besar",
+      "Optimalisasi Gateway Pembayaran Multi-Channel",
+      "SLA Bantuan Teknis Prioritas Level Pro",
+      "Garansi Cepat Resolve Bug & Maintenance 6 Bulan"
+    ],
+    "ekstraDomain": [
+      ".biz.id",
+      ".store",
+      ".info / .net"
+    ],
+    "hargaPromoTahunan": 13428000,
+    "hargaNormalTahunan": 14388000,
+    "deskripsi": "Arsitektur canggih tingkat tinggi dengan akses multi-lapis, dirancang untuk organisasi skala besar yang dinamis."
+  },
+  {
+    "nama": "Enterprise Suite",
+    "hargaNormal": 1599000,
+    "hargaPromo": 1499000,
+    "hargaNormalLisensi": 33579000,
+    "hargaPromoLisensi": 31479000,
+    "proyek": "Bulan",
+    "layanan": [
+      "Sistem Berskala Enterprise Multi-Role Spesifik",
+      "Infrastruktur Cloud Lintas Server Skala Penuh",
+      "Pengembangan Custom Request API Tak Terbatas",
+      "Support Ekosistem Multi-OS (Play Store & App Store)"
+    ],
+    "integrasi": [
+      "Multiplier Tracking & Rating",
+      "WhatsApp API Multiplier",
+      "Smart AI Custom Form",
+      "Sosial Media Account",
+      "Email AutoReply, Smart Auth & Recovery",
+      "MultiPayment Gateway",
+      "Multi Bahasa & Kurs",
+      "Database Manager",
+      "Custom Chat Kompleks",
+      "Custom Request API"
+    ],
+    "gratisDomain": true,
+    "durasiGratisDomain": "1 Tahun (.co.id / .id / .com / .org / .net / .info / .store.id / .web.id / .biz.id / .site.id / .my.id)",
+    "database": [
+      {
+        "platform": "Cloudflare",
+        "sistem": [
+          "Filestore/PostgreSQL/MySQL Cluster",
+          "KV KeyValue",
+          "D1 Database",
+          "R2 Object Storage",
+          "Smart Cache & Cookies SIstem"
+        ]
+      }
+    ],
+    "hosting": "Vercel",
+    "durasiGratisHosting": "1 Tahun",
+    "minimumTransaksi": 12,
+    "osSupport": [
+      "Windows",
+      "PWA",
+      "iOS",
+      "Android",
+      "Play Store",
+      "App Store"
+    ],
+    "aksesKontrol": {
+      "brand": "Custom Panel",
+      "fitur": [
+        {
+          "role": "Developer Panel",
+          "deskripsi": "Akses Source Code & Hosting"
+        },
+        {
+          "role": "Super Admin Panel",
+          "deskripsi": "Administrasi sistem menyeluruh"
+        },
+        {
+          "role": "Admin Panel",
+          "deskripsi": "Akses terbatas halaman admin"
+        },
+        {
+          "role": "User Panel 1",
+          "deskripsi": "Akses dashboard utama pengguna"
+        },
+        {
+          "role": "User Panel 2",
+          "deskripsi": "Akses dashboard sekunder pengguna"
+        }
+      ]
+    },
+    "layananDanJaminan": [
+      "Implementasi Transparansi Penuh & Source Code Klien",
+      "DevOps Konsultasi IT Layanan Integrasi Terpusat",
+      "Kanal Komunikasi VIP dengan Tim Senior Engineers",
+      "Garansi SLA, Prioritas Bug Fix & Perawatan 12 Bulan"
+    ],
+    "ekstraDomain": [
+      ".biz.id",
+      ".store",
+      ".info / .net"
+    ],
+    "hargaPromoTahunan": 17988000,
+    "hargaNormalTahunan": 19188000,
+    "deskripsi": "Ekosistem digital tanpa batas dengan dukungan aplikasi mobile dan kustomisasi API penuh untuk dominasi pasar."
+  }
+]
